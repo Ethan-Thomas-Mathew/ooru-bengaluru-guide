@@ -120,3 +120,72 @@ describe('errors', () => {
     await request(app).post('/api/reviews').set('Content-Type', 'application/json').send('{bad').expect(400)
   })
 })
+
+// ---- Security checks (each one is an attack that must fail) ----------------
+describe('security', () => {
+  const auth = { Authorization: `Bearer ${TOKEN}` }
+  const spam = { listingKey: 'food:f-mtr', name: 'Spammer', rating: 1, text: 'spam spam spam spam' }
+
+  it('refuses to start with a short admin token', () => {
+    const db = openDb(':memory:')
+    expect(() => createApp({ db, adminToken: 'admin123' })).toThrow(/at least 16/)
+  })
+
+  it('does not let a fake X-Forwarded-For header skip the review limit', async () => {
+    // reviewLimit is 3 in these tests; each request pretends to be a new visitor
+    for (let i = 1; i <= 3; i++) {
+      await request(app).post('/api/reviews').set('X-Forwarded-For', `10.0.0.${i}`).send(spam).expect(201)
+    }
+    await request(app).post('/api/reviews').set('X-Forwarded-For', '10.0.0.99').send(spam).expect(429)
+  })
+
+  it('blocks admin token guessing after 10 wrong tries', async () => {
+    for (let i = 0; i < 10; i++) {
+      await request(app).get('/api/admin/check').set('Authorization', `Bearer wrong-guess-${i}`).expect(401)
+    }
+    await request(app).get('/api/admin/check').set('Authorization', 'Bearer wrong-guess-again').expect(429)
+  })
+
+  it('does not count correct tokens as guesses', async () => {
+    for (let i = 0; i < 15; i++) await request(app).get('/api/admin/check').set(auth).expect(200)
+  })
+
+  it('answers 413 (not a crash) for a body that is too big', async () => {
+    const res = await request(app)
+      .post('/api/reviews')
+      .set('Content-Type', 'application/json')
+      .send(JSON.stringify({ text: 'x'.repeat(100_000) }))
+      .expect(413)
+    expect(res.body.error).toMatch(/too large/)
+  })
+
+  it('rejects javascript: links as a listing source', async () => {
+    const item = {
+      name: 'Link Test',
+      area: 'Jayanagar',
+      cuisine: 'Cafe',
+      diet: 'Veg',
+      costForTwo: 300,
+      knownFor: 'x',
+      source: 'javascript:alert(1)',
+    }
+    await request(app).post('/api/admin/listings').set(auth).send({ categoryId: 'food', item }).expect(400)
+  })
+
+  it('drops unknown and dangerous fields from new listings', async () => {
+    const item = JSON.parse(
+      '{"name":"Field Test","area":"Jayanagar","cuisine":"Cafe","diet":"Veg","costForTwo":300,"knownFor":"x","rating":5,"evil":"<script>","__proto__":{"isAdmin":true}}',
+    )
+    const res = await request(app).post('/api/admin/listings').set(auth).send({ categoryId: 'food', item }).expect(201)
+    expect(res.body.rating).toBeUndefined()
+    expect(res.body.evil).toBeUndefined()
+    expect(({} as { isAdmin?: boolean }).isAdmin).toBeUndefined()
+  })
+
+  it('stores SQL-looking text as plain text', async () => {
+    const sneaky = { ...goodReview, text: "'); DROP TABLE listings; -- still just text" }
+    await request(app).post('/api/reviews').send(sneaky).expect(201)
+    const res = await request(app).get('/api/listings').expect(200)
+    expect(res.body.food.length).toBeGreaterThan(0)
+  })
+})

@@ -37,7 +37,13 @@ const base = {
   area: z.string().trim().min(2).max(60),
   address: z.string().trim().max(200).optional(),
   // Where the facts came from, so visitors can check them
-  source: z.string().trim().url('Source must be a full link (https://...)').max(500).optional(),
+  // Only http(s) links: a "javascript:" link would run code when clicked
+  source: z
+    .string()
+    .trim()
+    .max(500)
+    .regex(/^https?:\/\/[^\s]+$/i, 'Source must be a full link starting with https://')
+    .optional(),
   checked: z
     .string()
     .regex(/^\d{4}-\d{2}-\d{2}$/)

@@ -47,19 +47,34 @@ export function PrivacyPage() {
           on a server.
         </li>
         <li>
-          <strong>Your cookie choice.</strong> Saved in your browser so we don't ask again.
+          <strong>Saved places, your day plan, rain mode and your cookie choice.</strong> Kept only in your own browser
+          (local storage), never sent to us. Clearing your browser data removes them.
         </li>
         <li>
-          <strong>Visit counts</strong>, only if you choose "Accept all". These tell us which pages are used, without
-          identifying you.
+          <strong>Reviews, if you post one.</strong> We store the name you give, your star rating, your text and the
+          time, and show them publicly next to the listing. Use a first name or nickname, and don't include phone
+          numbers or other personal details. You can ask us to remove a review at any time.
+        </li>
+        <li>
+          <strong>Your IP address, briefly.</strong> The server keeps it in memory for a few minutes to stop spam (for
+          example, limiting how many reviews one visitor can post). It is not saved in our database.
         </li>
       </ul>
-      <p>We do not ask for your name, phone number or location, and we do not sell any data.</p>
+      <p>
+        We don't run analytics or advertising, we don't ask for your phone number or location, and we don't sell any
+        data. We only ask for a name if you choose to post a review.
+      </p>
+
+      <h2>Other services the site uses</h2>
+      <p>
+        To show fonts and maps, your browser downloads them from Google Fonts and OpenStreetMap. Like any website, those
+        services receive your IP address when they send the files. Their own privacy policies apply.
+      </p>
 
       <h2>Why we use it</h2>
       <ul>
-        <li>To show search results and remember your settings.</li>
-        <li>To understand which guides are useful, so we can improve them.</li>
+        <li>To show search results and remember your settings on your device.</li>
+        <li>To show reviews, and to keep spam and abuse out.</li>
       </ul>
 
       <h2>Your rights</h2>
@@ -160,10 +175,36 @@ export function CookiesPage() {
               <td>Until you clear your browser data</td>
             </tr>
             <tr>
-              <td>Analytics (planned)</td>
-              <td>Optional</td>
-              <td>Counts page visits so we know which guides are used. Only set if you accept all.</td>
-              <td>Up to 12 months</td>
+              <td>
+                <code>ooru-saved</code>
+              </td>
+              <td>Essential</td>
+              <td>The places you saved</td>
+              <td>Until you clear your browser data</td>
+            </tr>
+            <tr>
+              <td>
+                <code>ooru-plan</code>
+              </td>
+              <td>Essential</td>
+              <td>Your day plan</td>
+              <td>Until you clear your browser data</td>
+            </tr>
+            <tr>
+              <td>
+                <code>ooru-rain</code>
+              </td>
+              <td>Essential</td>
+              <td>Whether rain mode is on</td>
+              <td>Until you clear your browser data</td>
+            </tr>
+            <tr>
+              <td>
+                <code>ooru-admin-token</code>
+              </td>
+              <td>Essential (site owner only)</td>
+              <td>Keeps the admin signed in on the /admin page</td>
+              <td>Until the tab is closed</td>
             </tr>
           </tbody>
         </table>

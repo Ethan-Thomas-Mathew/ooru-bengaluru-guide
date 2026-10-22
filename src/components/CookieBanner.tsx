@@ -53,8 +53,8 @@ export default function CookieBanner() {
   return (
     <div className="cookie-banner" ref={boxRef} role="dialog" aria-live="polite" aria-label="Cookie consent">
       <p>
-        We use essential storage to remember your settings. With your OK we'd also like to count visits so we know which
-        guides people use. <Link to="/cookies">Read the cookie policy</Link>
+        We use your browser's storage only to remember your settings. No tracking, no ads. If we ever add visit
+        counting, it will only run if you choose "Accept all". <Link to="/cookies">Read the cookie policy</Link>
       </p>
       <div className="cookie-actions">
         <button type="button" className="btn btn-quiet" onClick={() => choose('essential')}>

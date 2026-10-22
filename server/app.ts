@@ -21,7 +21,7 @@
 import express, { type NextFunction, type Request, type Response } from 'express'
 import helmet from 'helmet'
 import { rateLimit } from 'express-rate-limit'
-import { timingSafeEqual, randomBytes } from 'node:crypto'
+import { createHash, timingSafeEqual, randomBytes } from 'node:crypto'
 import { existsSync } from 'node:fs'
 import { join } from 'node:path'
 import { z, ZodError } from 'zod'
@@ -36,7 +36,16 @@ export interface AppOptions {
   reviewLimit?: number
   /** Folder with the built website (dist/) to serve, if any */
   staticDir?: string
+  /**
+   * How many proxies sit in front of this server (e.g. 1 on Render or Fly).
+   * Leave at 0 when nothing does (your laptop): otherwise anyone could fake
+   * the X-Forwarded-For header to pose as a new visitor and skip rate limits.
+   */
+  trustProxy?: number
 }
+
+/** Shortest admin token we accept. Short ones can be guessed. */
+export const MIN_TOKEN_LENGTH = 16
 
 // Short id prefixes, matching the seed data ("c-christ", "f-mtr")
 const ID_PREFIX: Record<string, string> = {
@@ -58,17 +67,21 @@ const slug = (s: string) =>
     .slice(0, 30)
 
 // Compare tokens in constant time, so attackers can't guess them
-// letter by letter by measuring how long the check takes
+// letter by letter by measuring how long the check takes. Hashing first
+// makes both sides the same length, so even the length isn't revealed.
+const sha256 = (s: string) => createHash('sha256').update(s).digest()
 function sameToken(given: string, expected: string): boolean {
-  const a = Buffer.from(given)
-  const b = Buffer.from(expected)
-  return a.length === b.length && timingSafeEqual(a, b)
+  return timingSafeEqual(sha256(given), sha256(expected))
 }
 
-export function createApp({ db, adminToken, reviewLimit = 5, staticDir }: AppOptions) {
+export function createApp({ db, adminToken, reviewLimit = 5, staticDir, trustProxy = 0 }: AppOptions) {
+  if (adminToken.length < MIN_TOKEN_LENGTH) {
+    throw new Error(`ADMIN_TOKEN must be at least ${MIN_TOKEN_LENGTH} characters, so it can't be guessed`)
+  }
   const app = express()
   app.disable('x-powered-by')
-  app.set('trust proxy', 1) // so rate limits see the real visitor IP behind a host's proxy
+  // Only believe X-Forwarded-For when a real proxy adds it (see trustProxy above)
+  app.set('trust proxy', trustProxy)
 
   // Security headers. The Content-Security-Policy lists the only outside
   // sites the page may load from: map tiles and Google Fonts.
@@ -140,8 +153,18 @@ export function createApp({ db, adminToken, reviewLimit = 5, staticDir }: AppOpt
     }
     next()
   }
+  // Stop password guessing: 10 wrong tokens per 15 minutes per visitor.
+  // Correct tokens don't count towards the limit.
+  const adminGuessLimiter = rateLimit({
+    windowMs: 15 * 60_000,
+    limit: 10,
+    skipSuccessfulRequests: true,
+    standardHeaders: 'draft-8',
+    legacyHeaders: false,
+    message: { error: 'Too many wrong tokens. Try again in 15 minutes.' },
+  })
   const admin = express.Router()
-  admin.use(requireAdmin)
+  admin.use(adminGuessLimiter, requireAdmin)
 
   admin.get('/check', (_req, res) => {
     res.json({ ok: true })
@@ -207,8 +230,14 @@ export function createApp({ db, adminToken, reviewLimit = 5, staticDir }: AppOpt
       res.status(400).json({ error: first ? `${first.path.join('.') || 'input'}: ${first.message}` : 'Invalid input' })
       return
     }
-    if (err instanceof SyntaxError) {
+    // Errors from reading the request body (bad JSON, too big) carry their own status
+    const status = (err as { status?: number }).status
+    if (err instanceof SyntaxError || status === 400) {
       res.status(400).json({ error: 'Body must be valid JSON' })
+      return
+    }
+    if (status === 413) {
+      res.status(413).json({ error: 'Request is too large' })
       return
     }
     console.error(err)

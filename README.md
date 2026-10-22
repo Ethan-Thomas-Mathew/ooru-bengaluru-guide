@@ -31,14 +31,14 @@ but reviews and admin need the server.
 
 ### Other commands
 
-| Command | What it does |
-| --- | --- |
-| `npm start` | Builds the site, then serves site + API together on http://localhost:3001 (like production) |
-| `npm test` | Runs all tests once (67 tests: search, fares, planner maths, share links, API, data checks) |
-| `npm run check` | Type-check + lint + tests. Run this before you commit |
-| `npm run typecheck` | TypeScript only |
-| `npm run lint` | oxlint only |
-| `npm run format` | Auto-format the code with Prettier |
+| Command             | What it does                                                                                |
+| ------------------- | ------------------------------------------------------------------------------------------- |
+| `npm start`         | Builds the site, then serves site + API together on http://localhost:3001 (like production) |
+| `npm test`          | Runs all tests once (67 tests: search, fares, planner maths, share links, API, data checks) |
+| `npm run check`     | Type-check + lint + tests. Run this before you commit                                       |
+| `npm run typecheck` | TypeScript only                                                                             |
+| `npm run lint`      | oxlint only                                                                                 |
+| `npm run format`    | Auto-format the code with Prettier                                                          |
 
 ---
 
@@ -103,14 +103,14 @@ src/                    the website (React)
 
 ### Algorithms worth knowing for interviews
 
-| Where | Algorithm | Why |
-| --- | --- | --- |
-| `lib/fuzzy.ts` | Edit distance (dynamic programming) with early exit | Typo-tolerant search |
-| `lib/transit.ts` | Breadth-first search on the metro graph | Fewest-stops route with interchanges |
-| `lib/geo.ts` | Haversine formula | Distance between two lat/lng points |
-| `lib/itinerary.ts` | Greedy nearest neighbour + 2-opt | "Best order": a fast answer to the travelling salesman problem |
-| `lib/itinerary.ts` | Search over start times | "Leave at 8:15 to save 25 min" |
-| `lib/plan.ts` | Base64url encoding | Whole plan fits in a share link |
+| Where              | Algorithm                                           | Why                                                            |
+| ------------------ | --------------------------------------------------- | -------------------------------------------------------------- |
+| `lib/fuzzy.ts`     | Edit distance (dynamic programming) with early exit | Typo-tolerant search                                           |
+| `lib/transit.ts`   | Breadth-first search on the metro graph             | Fewest-stops route with interchanges                           |
+| `lib/geo.ts`       | Haversine formula                                   | Distance between two lat/lng points                            |
+| `lib/itinerary.ts` | Greedy nearest neighbour + 2-opt                    | "Best order": a fast answer to the travelling salesman problem |
+| `lib/itinerary.ts` | Search over start times                             | "Leave at 8:15 to save 25 min"                                 |
+| `lib/plan.ts`      | Base64url encoding                                  | Whole plan fits in a share link                                |
 
 ### Design decisions
 
@@ -119,8 +119,11 @@ src/                    the website (React)
 - **One set of validation rules** (`shared/schemas.ts`) for the server and the forms.
 - **SQLite via `node:sqlite`**: no database to install, one file, real SQL with placeholders
   (safe from SQL injection; there's a test for it).
-- **Security:** helmet headers with a Content-Security-Policy, request size limits, rate limits,
-  constant-time admin token check, JSON-only errors that don't leak internals.
+- **Security:** helmet headers with a Content-Security-Policy, request size limits, rate limits
+  (reviews, and 10 wrong admin tokens per 15 minutes), admin tokens of at least 16 characters
+  compared in constant time, the X-Forwarded-For header ignored unless `TRUST_PROXY` is set (so
+  nobody can fake a new IP to dodge limits), http(s)-only source links, and JSON-only errors that
+  don't leak internals. The attacks are tested in `server/app.test.ts` ("security").
 
 ---
 
@@ -191,6 +194,6 @@ VITE_BASE=/ooru-bengaluru-guide/ VITE_DEMO=1 npm run build
 ## Deploying (later)
 
 SQLite needs a disk that survives restarts, so pick a host with a persistent volume (Render,
-Railway, Fly.io or a small VPS), set `ADMIN_TOKEN` and `DB_FILE` (on the volume), and run
-`npm start`. For heavy traffic, swap OpenStreetMap's public tiles for a tile provider, per
+Railway, Fly.io or a small VPS), set `ADMIN_TOKEN` (16+ characters), `DB_FILE` (on the volume)
+and `TRUST_PROXY=1` (these hosts put a proxy in front of your server), and run `npm start`. For heavy traffic, swap OpenStreetMap's public tiles for a tile provider, per
 OSM's usage policy.

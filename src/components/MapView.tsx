@@ -110,7 +110,7 @@ export default function MapView({ points, route = false, showMetro = false, heig
       const popup =
         `<strong>${escapeHtml(p.label)}</strong>` +
         (p.sub ? `<br><span>${escapeHtml(p.sub)}</span>` : '') +
-        (p.href ? `<br><a href="${p.href}" data-route="${p.href}">Open</a>` : '')
+        (p.href ? `<br><a href="${escapeHtml(p.href)}" data-route="${escapeHtml(p.href)}">Open</a>` : '')
       L.marker([p.lat, p.lng], { icon, title: p.label, alt: p.label }).bindPopup(popup).addTo(layer)
     }
 

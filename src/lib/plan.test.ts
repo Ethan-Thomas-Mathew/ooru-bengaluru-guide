@@ -27,4 +27,11 @@ describe('share links', () => {
     const tampered = encodePlan({ ...plan, stops: [...plan.stops, { key: 'places:does-not-exist', stay: 30 }] })
     expect(decodePlan(tampered)?.stops).toHaveLength(2)
   })
+
+  it('rejects links with a made-up mode or an impossible time', () => {
+    // "constructor" exists on every JavaScript object, so a naive check would accept it
+    const fake = (text: string) => btoa(text).replace(/=+$/, '')
+    expect(decodePlan(fake('0900.constructor.'))).toBeNull()
+    expect(decodePlan(fake('2599.car.'))).toBeNull()
+  })
 })

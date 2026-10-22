@@ -76,7 +76,8 @@ export function encodePlan(plan: Plan): string {
 export function decodePlan(code: string): Plan | null {
   try {
     const [time, mode, stopText] = fromBase64Url(code).split('.')
-    if (!/^\d{4}$/.test(time) || !(mode in MODES)) return null
+    // hasOwn, not "in": "in" would also accept built-in names like "constructor"
+    if (!/^([01]\d|2[0-3])[0-5]\d$/.test(time) || !Object.hasOwn(MODES, mode)) return null
     const stops = (stopText ?? '')
       .split(',')
       .filter(Boolean)
