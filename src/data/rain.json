@@ -1,0 +1,23 @@
+{
+  "_note": "Spots reported waterlogged after heavy rain in 2024-2025 news reports. Used by rain mode to add delays and warnings. Not an official flood map.",
+  "sources": [
+    "https://thesouthfirst.com/karnataka/overnight-rains-cause-widespread-waterlogging-in-bengaluru-traffic-advisory-issued/",
+    "https://www.deccanherald.com/india/karnataka/bengaluru/flooding-in-many-parts-of-bengaluru-after-torrential-overnight-rain-3546886"
+  ],
+  "hotspots": [
+    { "area": "HSR Layout", "spot": "Silk Board junction and HSR Layout sectors" },
+    { "area": "BTM Layout", "spot": "Outer Ring Road near BTM 29th Main, Silk Board" },
+    { "area": "Koramangala", "spot": "Sony World signal, ST Bed Layout" },
+    { "area": "Hebbal", "spot": "Hebbal flyover ramps, Outer Ring Road from Nagawara" },
+    { "area": "Hennur", "spot": "Hennur underpass, HBR Layout" },
+    { "area": "Marathahalli", "spot": "Marathahalli, Outer Ring Road" },
+    { "area": "Mahadevapura", "spot": "Lowry railway underpass towards Mahadevapura" },
+    { "area": "Yelahanka", "spot": "Jakkur underpass, Vidyashilp railway underpass" },
+    { "area": "KR Market", "spot": "KR Market" },
+    { "area": "Shanthinagar", "spot": "Shanthinagar bus depot area, Wilson Garden" },
+    { "area": "Jnanabharathi", "spot": "Jnanabharathi, RR Nagar" },
+    { "area": "Electronic City", "spot": "Electronic City flyover at Roopena Agrahara" },
+    { "area": "Kanakapura Road", "spot": "Kanakapura Main Road" }
+  ],
+  "outdoorKinds": ["Park", "Lake", "Hill", "Market", "Theme park", "Monument"]
+}

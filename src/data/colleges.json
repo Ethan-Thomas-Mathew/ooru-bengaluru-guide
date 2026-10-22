@@ -1,0 +1,816 @@
+[
+  {
+    "id": "c-iisc",
+    "name": "Indian Institute of Science (IISc)",
+    "level": "Degree",
+    "type": "Science & Research",
+    "ownership": "Government",
+    "area": "Malleshwaram",
+    "courses": [
+      "BS (Research)",
+      "MTech",
+      "PhD"
+    ],
+    "feesPerYear": 35000,
+    "nirf": {
+      "category": "University",
+      "rank": "1"
+    },
+    "nirfSort": 1
+  },
+  {
+    "id": "c-iimb",
+    "name": "IIM Bangalore",
+    "level": "Degree",
+    "type": "Management",
+    "ownership": "Government",
+    "area": "Bannerghatta Road",
+    "courses": [
+      "MBA"
+    ],
+    "feesPerYear": 1250000,
+    "nirf": {
+      "category": "Management",
+      "rank": "2"
+    },
+    "nirfSort": 2
+  },
+  {
+    "id": "c-nlsiu",
+    "name": "National Law School of India University",
+    "level": "Degree",
+    "type": "Law",
+    "ownership": "Government",
+    "area": "Nagarbhavi",
+    "courses": [
+      "BA LLB",
+      "LLM"
+    ],
+    "feesPerYear": 300000,
+    "nirf": {
+      "category": "Law",
+      "rank": "1"
+    },
+    "nirfSort": 1
+  },
+  {
+    "id": "c-rvce",
+    "name": "RV College of Engineering",
+    "level": "Degree",
+    "type": "Engineering",
+    "ownership": "Private",
+    "area": "Mysuru Road",
+    "courses": [
+      "BE",
+      "MTech",
+      "MCA"
+    ],
+    "feesPerYear": 250000,
+    "nirf": {
+      "category": "Engineering",
+      "rank": "101–150"
+    },
+    "nirfSort": 101
+  },
+  {
+    "id": "c-christ",
+    "name": "Christ University",
+    "level": "Degree",
+    "type": "Arts, Science & Commerce",
+    "ownership": "Deemed",
+    "area": "Hosur Road",
+    "courses": [
+      "BCA",
+      "BCom",
+      "BBA",
+      "BA",
+      "BSc",
+      "BA LLB",
+      "MBA"
+    ],
+    "feesPerYear": 180000,
+    "nirf": {
+      "category": "University",
+      "rank": "63"
+    },
+    "nirfSort": 63
+  },
+  {
+    "id": "c-stjohns",
+    "name": "St. John's Medical College",
+    "level": "Degree",
+    "type": "Medical",
+    "ownership": "Private",
+    "area": "Koramangala",
+    "courses": [
+      "MBBS",
+      "BSc Nursing"
+    ],
+    "feesPerYear": 600000,
+    "nirf": {
+      "category": "Medical",
+      "rank": "30"
+    },
+    "nirfSort": 30
+  },
+  {
+    "id": "c-bmcri",
+    "name": "Bangalore Medical College and Research Institute",
+    "level": "Degree",
+    "type": "Medical",
+    "ownership": "Government",
+    "area": "KR Market",
+    "courses": [
+      "MBBS"
+    ],
+    "feesPerYear": 60000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "c-pes",
+    "name": "PES University",
+    "level": "Degree",
+    "type": "Engineering",
+    "ownership": "Private",
+    "area": "Banashankari",
+    "courses": [
+      "BTech",
+      "BBA",
+      "BCom",
+      "BDes",
+      "MBA"
+    ],
+    "feesPerYear": 400000,
+    "nirf": {
+      "category": "Engineering",
+      "rank": "101–150"
+    },
+    "nirfSort": 101
+  },
+  {
+    "id": "c-bmsce",
+    "name": "BMS College of Engineering",
+    "level": "Degree",
+    "type": "Engineering",
+    "ownership": "Private",
+    "area": "Basavanagudi",
+    "courses": [
+      "BE",
+      "MTech",
+      "MBA",
+      "MCA"
+    ],
+    "feesPerYear": 230000,
+    "nirf": {
+      "category": "Engineering",
+      "rank": "151–200"
+    },
+    "nirfSort": 151
+  },
+  {
+    "id": "c-msrit",
+    "name": "MS Ramaiah Institute of Technology",
+    "level": "Degree",
+    "type": "Engineering",
+    "ownership": "Private",
+    "area": "Mathikere",
+    "courses": [
+      "BE",
+      "MTech",
+      "MBA",
+      "MCA"
+    ],
+    "feesPerYear": 240000,
+    "nirf": {
+      "category": "Engineering",
+      "rank": "Top 100"
+    },
+    "nirfSort": 100
+  },
+  {
+    "id": "c-sju",
+    "name": "St. Joseph's University",
+    "level": "Degree",
+    "type": "Arts, Science & Commerce",
+    "ownership": "Private",
+    "area": "Shanthinagar",
+    "courses": [
+      "BCA",
+      "BCom",
+      "BA",
+      "BSc",
+      "BBA"
+    ],
+    "feesPerYear": 90000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "c-mcc",
+    "name": "Mount Carmel College (women)",
+    "level": "Degree",
+    "type": "Arts, Science & Commerce",
+    "ownership": "Private",
+    "area": "Vasanth Nagar",
+    "courses": [
+      "BCA",
+      "BCom",
+      "BBA",
+      "BA",
+      "BSc"
+    ],
+    "feesPerYear": 85000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "c-sjcc",
+    "name": "St. Joseph's College of Commerce",
+    "level": "Degree",
+    "type": "Commerce",
+    "ownership": "Private",
+    "area": "Brigade Road",
+    "courses": [
+      "BCom",
+      "BBA"
+    ],
+    "feesPerYear": 80000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "c-jain",
+    "name": "Jain (Deemed-to-be University)",
+    "level": "Degree",
+    "type": "Arts, Science & Commerce",
+    "ownership": "Deemed",
+    "area": "Jayanagar",
+    "courses": [
+      "BCA",
+      "BCom",
+      "BBA",
+      "BTech",
+      "MBA"
+    ],
+    "feesPerYear": 200000,
+    "nirf": {
+      "category": "University",
+      "rank": "62"
+    },
+    "nirfSort": 62
+  },
+  {
+    "id": "c-dsce",
+    "name": "Dayananda Sagar College of Engineering",
+    "level": "Degree",
+    "type": "Engineering",
+    "ownership": "Private",
+    "area": "Kumaraswamy Layout",
+    "courses": [
+      "BE",
+      "MTech",
+      "MBA"
+    ],
+    "feesPerYear": 220000,
+    "nirf": {
+      "category": "Engineering",
+      "rank": "201–300"
+    },
+    "nirfSort": 201
+  },
+  {
+    "id": "c-kristu",
+    "name": "Kristu Jayanti College",
+    "level": "Degree",
+    "type": "Arts, Science & Commerce",
+    "ownership": "Private",
+    "area": "Kothanur",
+    "courses": [
+      "BCA",
+      "BCom",
+      "BBA",
+      "BSc",
+      "BA"
+    ],
+    "feesPerYear": 75000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "c-jnc",
+    "name": "Jyoti Nivas College (women)",
+    "level": "Degree",
+    "type": "Arts, Science & Commerce",
+    "ownership": "Private",
+    "area": "Koramangala",
+    "courses": [
+      "BCom",
+      "BA",
+      "BSc",
+      "BBA"
+    ],
+    "feesPerYear": 60000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "p-christ",
+    "name": "Christ Junior College",
+    "level": "PUC",
+    "type": "Pre-University",
+    "ownership": "Private",
+    "area": "Hosur Road",
+    "courses": [
+      "Science (PCMB)",
+      "Science (PCMC)",
+      "Commerce",
+      "Arts"
+    ],
+    "feesPerYear": 110000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "p-mcc",
+    "name": "Mount Carmel PU College",
+    "level": "PUC",
+    "type": "Pre-University",
+    "ownership": "Private",
+    "area": "Vasanth Nagar",
+    "courses": [
+      "Science (PCMB)",
+      "Science (PCMC)",
+      "Commerce",
+      "Arts"
+    ],
+    "feesPerYear": 70000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "p-sjpu",
+    "name": "St. Joseph's PU College",
+    "level": "PUC",
+    "type": "Pre-University",
+    "ownership": "Private",
+    "area": "Shanthinagar",
+    "courses": [
+      "Science (PCMB)",
+      "Science (PCMC)",
+      "Commerce",
+      "Arts"
+    ],
+    "feesPerYear": 60000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "p-vidyamandir",
+    "name": "Vidya Mandir PU College",
+    "level": "PUC",
+    "type": "Pre-University",
+    "ownership": "Private",
+    "area": "Malleshwaram",
+    "courses": [
+      "Science (PCMB)",
+      "Science (PCMC)",
+      "Commerce"
+    ],
+    "feesPerYear": 65000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "p-jain",
+    "name": "Jain College (PU)",
+    "level": "PUC",
+    "type": "Pre-University",
+    "ownership": "Private",
+    "area": "Jayanagar",
+    "courses": [
+      "Science (PCMB)",
+      "Science (PCMC)",
+      "Commerce"
+    ],
+    "feesPerYear": 120000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "p-mes",
+    "name": "MES PU College",
+    "level": "PUC",
+    "type": "Pre-University",
+    "ownership": "Private",
+    "area": "Malleshwaram",
+    "courses": [
+      "Science (PCMB)",
+      "Science (PCMC)",
+      "Commerce",
+      "Arts"
+    ],
+    "feesPerYear": 40000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "p-national",
+    "name": "National PU College",
+    "level": "PUC",
+    "type": "Pre-University",
+    "ownership": "Private",
+    "area": "Basavanagudi",
+    "courses": [
+      "Science (PCMB)",
+      "Science (PCMC)",
+      "Commerce",
+      "Arts"
+    ],
+    "feesPerYear": 35000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "p-seshadri",
+    "name": "Seshadripuram PU College",
+    "level": "PUC",
+    "type": "Pre-University",
+    "ownership": "Private",
+    "area": "Seshadripuram",
+    "courses": [
+      "Science (PCMB)",
+      "Commerce",
+      "Arts"
+    ],
+    "feesPerYear": 30000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "c-bu",
+    "name": "Bangalore University",
+    "level": "Degree",
+    "type": "Arts, Science & Commerce",
+    "ownership": "Government",
+    "area": "Jnanabharathi",
+    "courses": [
+      "BA",
+      "BSc",
+      "BCom",
+      "MA",
+      "MSc",
+      "MCA"
+    ],
+    "feesPerYear": 20000,
+    "nirf": {
+      "category": "University",
+      "rank": "65"
+    },
+    "nirfSort": 65
+  },
+  {
+    "id": "c-uas",
+    "name": "University of Agricultural Sciences (GKVK)",
+    "level": "Degree",
+    "type": "Agriculture",
+    "ownership": "Government",
+    "area": "Hebbal",
+    "courses": [
+      "BSc Agriculture",
+      "MSc",
+      "PhD"
+    ],
+    "feesPerYear": 40000,
+    "nirf": {
+      "category": "University",
+      "rank": "95"
+    },
+    "nirfSort": 95
+  },
+  {
+    "id": "c-nimhans",
+    "name": "NIMHANS",
+    "level": "Degree",
+    "type": "Medical",
+    "ownership": "Government",
+    "area": "Hosur Road",
+    "courses": [
+      "MD",
+      "MPhil",
+      "PhD"
+    ],
+    "feesPerYear": 30000,
+    "nirf": {
+      "category": "Overall",
+      "rank": "60"
+    },
+    "nirfSort": 60
+  },
+  {
+    "id": "c-nmit",
+    "name": "Nitte Meenakshi Institute of Technology",
+    "level": "Degree",
+    "type": "Engineering",
+    "ownership": "Private",
+    "area": "Yelahanka",
+    "courses": [
+      "BE",
+      "MTech",
+      "MBA",
+      "MCA"
+    ],
+    "feesPerYear": 230000,
+    "nirf": {
+      "category": "Engineering",
+      "rank": "101–150"
+    },
+    "nirfSort": 101
+  },
+  {
+    "id": "c-cmrit",
+    "name": "CMR Institute of Technology",
+    "level": "Degree",
+    "type": "Engineering",
+    "ownership": "Private",
+    "area": "Whitefield",
+    "courses": [
+      "BE",
+      "MTech",
+      "MBA",
+      "MCA"
+    ],
+    "feesPerYear": 220000,
+    "nirf": {
+      "category": "Engineering",
+      "rank": "151–200"
+    },
+    "nirfSort": 151
+  },
+  {
+    "id": "c-nhce",
+    "name": "New Horizon College of Engineering",
+    "level": "Degree",
+    "type": "Engineering",
+    "ownership": "Private",
+    "area": "Marathahalli",
+    "courses": [
+      "BE",
+      "MTech",
+      "MBA",
+      "MCA"
+    ],
+    "feesPerYear": 210000,
+    "nirf": {
+      "category": "Engineering",
+      "rank": "151–200"
+    },
+    "nirfSort": 151
+  },
+  {
+    "id": "c-bmsit",
+    "name": "BMS Institute of Technology and Management",
+    "level": "Degree",
+    "type": "Engineering",
+    "ownership": "Private",
+    "area": "Yelahanka",
+    "courses": [
+      "BE",
+      "MTech",
+      "MBA",
+      "MCA"
+    ],
+    "feesPerYear": 200000,
+    "nirf": {
+      "category": "Engineering",
+      "rank": "201–300"
+    },
+    "nirfSort": 201
+  },
+  {
+    "id": "c-presidency",
+    "name": "Presidency University",
+    "level": "Degree",
+    "type": "Engineering",
+    "ownership": "Private",
+    "area": "Rajanukunte",
+    "courses": [
+      "BTech",
+      "BBA",
+      "BCom",
+      "BA LLB",
+      "MBA"
+    ],
+    "feesPerYear": 250000,
+    "nirf": {
+      "category": "Engineering",
+      "rank": "201–300"
+    },
+    "nirfSort": 201
+  },
+  {
+    "id": "c-reva",
+    "name": "REVA University",
+    "level": "Degree",
+    "type": "Engineering",
+    "ownership": "Private",
+    "area": "Yelahanka",
+    "courses": [
+      "BTech",
+      "BCA",
+      "BBA",
+      "BCom",
+      "MBA"
+    ],
+    "feesPerYear": 240000,
+    "nirf": {
+      "category": "Engineering",
+      "rank": "201–300"
+    },
+    "nirfSort": 201
+  },
+  {
+    "id": "c-iiitb",
+    "name": "IIIT Bangalore",
+    "level": "Degree",
+    "type": "Engineering",
+    "ownership": "Private",
+    "area": "Electronic City",
+    "courses": [
+      "Integrated MTech",
+      "MTech",
+      "MSc"
+    ],
+    "feesPerYear": 450000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "c-bcwcc",
+    "name": "Bishop Cotton Women's Christian College",
+    "level": "Degree",
+    "type": "Arts, Science & Commerce",
+    "ownership": "Private",
+    "area": "Richmond Road",
+    "courses": [
+      "BCom",
+      "BA",
+      "BBA",
+      "BCA"
+    ],
+    "feesPerYear": 70000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "c-msrcasc",
+    "name": "MS Ramaiah College of Arts, Science and Commerce",
+    "level": "Degree",
+    "type": "Arts, Science & Commerce",
+    "ownership": "Private",
+    "area": "Mathikere",
+    "courses": [
+      "BCA",
+      "BCom",
+      "BBA",
+      "BSc"
+    ],
+    "feesPerYear": 80000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "c-ncb",
+    "name": "National College, Basavanagudi",
+    "level": "Degree",
+    "type": "Arts, Science & Commerce",
+    "ownership": "Private",
+    "area": "Basavanagudi",
+    "courses": [
+      "BSc",
+      "BCom",
+      "BA",
+      "BCA"
+    ],
+    "feesPerYear": 40000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "c-sfgc",
+    "name": "Seshadripuram First Grade College",
+    "level": "Degree",
+    "type": "Arts, Science & Commerce",
+    "ownership": "Private",
+    "area": "Seshadripuram",
+    "courses": [
+      "BCom",
+      "BBA",
+      "BCA",
+      "BA"
+    ],
+    "feesPerYear": 35000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "c-gcu",
+    "name": "Garden City University",
+    "level": "Degree",
+    "type": "Arts, Science & Commerce",
+    "ownership": "Private",
+    "area": "Old Madras Road",
+    "courses": [
+      "BCA",
+      "BBA",
+      "BCom",
+      "BSc",
+      "MBA"
+    ],
+    "feesPerYear": 150000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "c-acharya",
+    "name": "Acharya Institute of Technology",
+    "level": "Degree",
+    "type": "Engineering",
+    "ownership": "Private",
+    "area": "Soladevanahalli",
+    "courses": [
+      "BE",
+      "MTech",
+      "MBA",
+      "MCA"
+    ],
+    "feesPerYear": 190000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "p-mahaveer",
+    "name": "Sri Bhagawan Mahaveer Jain PU College",
+    "level": "PUC",
+    "type": "Pre-University",
+    "ownership": "Private",
+    "area": "VV Puram",
+    "courses": [
+      "Science (PCMB)",
+      "Science (PCMC)",
+      "Commerce"
+    ],
+    "feesPerYear": 90000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "p-presidency",
+    "name": "Presidency PU College",
+    "level": "PUC",
+    "type": "Pre-University",
+    "ownership": "Private",
+    "area": "RT Nagar",
+    "courses": [
+      "Science (PCMB)",
+      "Science (PCMC)",
+      "Commerce"
+    ],
+    "feesPerYear": 80000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "p-kristu",
+    "name": "Kristu Jayanti PU College",
+    "level": "PUC",
+    "type": "Pre-University",
+    "ownership": "Private",
+    "area": "Kothanur",
+    "courses": [
+      "Science (PCMB)",
+      "Science (PCMC)",
+      "Commerce",
+      "Arts"
+    ],
+    "feesPerYear": 60000,
+    "nirf": null,
+    "nirfSort": 999
+  },
+  {
+    "id": "p-bcwcc",
+    "name": "Bishop Cotton Women's PU College",
+    "level": "PUC",
+    "type": "Pre-University",
+    "ownership": "Private",
+    "area": "Richmond Road",
+    "courses": [
+      "Commerce",
+      "Arts",
+      "Science (PCMC)"
+    ],
+    "feesPerYear": 55000,
+    "nirf": null,
+    "nirfSort": 999
+  }
+]

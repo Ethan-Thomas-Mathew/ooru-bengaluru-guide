@@ -1,0 +1,496 @@
+{
+  "_note": "Approximate centre of each area (latitude, longitude). Good enough to estimate travel times, not for turn-by-turn directions. aliases = other spellings people type.",
+  "Ambedkar Veedhi": {
+    "lat": 12.9796,
+    "lng": 77.5907,
+    "aliases": [
+      "vidhana soudha"
+    ]
+  },
+  "BTM Layout": {
+    "lat": 12.9166,
+    "lng": 77.6101,
+    "aliases": [
+      "btm"
+    ]
+  },
+  "Banashankari": {
+    "lat": 12.9255,
+    "lng": 77.5468,
+    "aliases": [
+      "bsk"
+    ]
+  },
+  "Banaswadi": {
+    "lat": 13.0141,
+    "lng": 77.6518,
+    "aliases": []
+  },
+  "Bannerghatta Road": {
+    "lat": 12.889,
+    "lng": 77.597,
+    "aliases": [
+      "bannerghatta"
+    ]
+  },
+  "Basavanagudi": {
+    "lat": 12.9422,
+    "lng": 77.5738,
+    "aliases": [
+      "basavangudi"
+    ]
+  },
+  "Basaveshwara Nagar": {
+    "lat": 12.9934,
+    "lng": 77.5381,
+    "aliases": [
+      "basaveshwaranagar",
+      "basweshwaranagar"
+    ]
+  },
+  "Bengaluru": {
+    "lat": 12.9716,
+    "lng": 77.5946,
+    "aliases": []
+  },
+  "Bidadi": {
+    "lat": 12.8343,
+    "lng": 77.401,
+    "aliases": []
+  },
+  "Bommanahalli": {
+    "lat": 12.9081,
+    "lng": 77.6239,
+    "aliases": []
+  },
+  "Brigade Road": {
+    "lat": 12.9719,
+    "lng": 77.607,
+    "aliases": []
+  },
+  "CV Raman Nagar": {
+    "lat": 12.9855,
+    "lng": 77.6633,
+    "aliases": [
+      "kaggadasapura",
+      "c v raman nagar"
+    ]
+  },
+  "Chickpet": {
+    "lat": 12.9668,
+    "lng": 77.577,
+    "aliases": [
+      "chikpet"
+    ]
+  },
+  "Cleveland Town": {
+    "lat": 12.993,
+    "lng": 77.617,
+    "aliases": []
+  },
+  "D'Souza Layout": {
+    "lat": 12.9665,
+    "lng": 77.601,
+    "aliases": []
+  },
+  "Domlur": {
+    "lat": 12.961,
+    "lng": 77.6387,
+    "aliases": [
+      "amarjyoti layout"
+    ]
+  },
+  "Dwaraka Nagar": {
+    "lat": 12.918,
+    "lng": 77.532,
+    "aliases": [
+      "dwarakanagar"
+    ]
+  },
+  "Electronic City": {
+    "lat": 12.8452,
+    "lng": 77.6602,
+    "aliases": [
+      "ecity",
+      "e city",
+      "e-city"
+    ]
+  },
+  "Frazer Town": {
+    "lat": 12.999,
+    "lng": 77.615,
+    "aliases": [
+      "pulikeshi nagar"
+    ]
+  },
+  "Gandhinagar": {
+    "lat": 12.977,
+    "lng": 77.577,
+    "aliases": []
+  },
+  "Gavipuram": {
+    "lat": 12.948,
+    "lng": 77.566,
+    "aliases": []
+  },
+  "HSR Layout": {
+    "lat": 12.9116,
+    "lng": 77.6474,
+    "aliases": [
+      "hsr"
+    ]
+  },
+  "Halasuru": {
+    "lat": 12.978,
+    "lng": 77.625,
+    "aliases": [
+      "ulsoor"
+    ]
+  },
+  "Hebbal": {
+    "lat": 13.0358,
+    "lng": 77.597,
+    "aliases": []
+  },
+  "Hennur": {
+    "lat": 13.041,
+    "lng": 77.64,
+    "aliases": []
+  },
+  "High Grounds": {
+    "lat": 12.986,
+    "lng": 77.589,
+    "aliases": []
+  },
+  "Hosakerehalli": {
+    "lat": 12.929,
+    "lng": 77.537,
+    "aliases": []
+  },
+  "Hosur Road": {
+    "lat": 12.935,
+    "lng": 77.606,
+    "aliases": []
+  },
+  "Indiranagar": {
+    "lat": 12.9784,
+    "lng": 77.6408,
+    "aliases": [
+      "indira nagar",
+      "100 feet road"
+    ]
+  },
+  "JP Nagar": {
+    "lat": 12.9063,
+    "lng": 77.5857,
+    "aliases": [
+      "jp nagar",
+      "j p nagar",
+      "jayaprakash nagar"
+    ]
+  },
+  "Jayanagar": {
+    "lat": 12.9293,
+    "lng": 77.5826,
+    "aliases": [
+      "jaynagar"
+    ]
+  },
+  "Jnanabharathi": {
+    "lat": 12.945,
+    "lng": 77.51,
+    "aliases": [
+      "jnana bharathi"
+    ]
+  },
+  "KR Market": {
+    "lat": 12.9633,
+    "lng": 77.5776,
+    "aliases": [
+      "kr market",
+      "city market",
+      "kalasipalya"
+    ]
+  },
+  "Kalyan Nagar": {
+    "lat": 13.0279,
+    "lng": 77.6397,
+    "aliases": [
+      "hrbr layout",
+      "hrbr",
+      "kalyananagar"
+    ]
+  },
+  "Kamaraj Road": {
+    "lat": 12.98,
+    "lng": 77.61,
+    "aliases": []
+  },
+  "Kanakapura Road": {
+    "lat": 12.88,
+    "lng": 77.56,
+    "aliases": []
+  },
+  "Kasturba Road": {
+    "lat": 12.974,
+    "lng": 77.596,
+    "aliases": []
+  },
+  "Kengeri": {
+    "lat": 12.9081,
+    "lng": 77.4826,
+    "aliases": []
+  },
+  "Koramangala": {
+    "lat": 12.9352,
+    "lng": 77.6245,
+    "aliases": [
+      "kormangala",
+      "koramangla"
+    ]
+  },
+  "Kothanur": {
+    "lat": 13.06,
+    "lng": 77.643,
+    "aliases": []
+  },
+  "Kumaraswamy Layout": {
+    "lat": 12.907,
+    "lng": 77.562,
+    "aliases": []
+  },
+  "Lalbagh Road": {
+    "lat": 12.955,
+    "lng": 77.585,
+    "aliases": [
+      "lalbagh"
+    ]
+  },
+  "Lavelle Road": {
+    "lat": 12.971,
+    "lng": 77.598,
+    "aliases": []
+  },
+  "MG Road": {
+    "lat": 12.9756,
+    "lng": 77.6066,
+    "aliases": [
+      "mg road",
+      "m g road",
+      "mahatma gandhi road",
+      "church street"
+    ]
+  },
+  "Mahadevapura": {
+    "lat": 12.997,
+    "lng": 77.696,
+    "aliases": []
+  },
+  "Majestic": {
+    "lat": 12.9767,
+    "lng": 77.5713,
+    "aliases": [
+      "kempegowda bus station",
+      "kbs"
+    ]
+  },
+  "Malleshwaram": {
+    "lat": 13.0031,
+    "lng": 77.5643,
+    "aliases": [
+      "malleswaram",
+      "malleshwaram"
+    ]
+  },
+  "Marathahalli": {
+    "lat": 12.9569,
+    "lng": 77.7011,
+    "aliases": [
+      "marathalli"
+    ]
+  },
+  "Mathikere": {
+    "lat": 13.033,
+    "lng": 77.561,
+    "aliases": []
+  },
+  "Museum Road": {
+    "lat": 12.97,
+    "lng": 77.603,
+    "aliases": []
+  },
+  "Mysuru Road": {
+    "lat": 12.9237,
+    "lng": 77.4987,
+    "aliases": [
+      "mysore road"
+    ]
+  },
+  "Nagarbhavi": {
+    "lat": 12.96,
+    "lng": 77.51,
+    "aliases": []
+  },
+  "Nagavara": {
+    "lat": 13.0442,
+    "lng": 77.6205,
+    "aliases": [
+      "nagawara",
+      "manyata"
+    ]
+  },
+  "Nandi Hills": {
+    "lat": 13.3702,
+    "lng": 77.6835,
+    "aliases": []
+  },
+  "Old Airport Road": {
+    "lat": 12.96,
+    "lng": 77.66,
+    "aliases": []
+  },
+  "Old Madras Road": {
+    "lat": 13.005,
+    "lng": 77.67,
+    "aliases": []
+  },
+  "Palace Road": {
+    "lat": 12.989,
+    "lng": 77.585,
+    "aliases": []
+  },
+  "RT Nagar": {
+    "lat": 13.021,
+    "lng": 77.596,
+    "aliases": [
+      "rt nagar"
+    ]
+  },
+  "Rajajinagar": {
+    "lat": 12.991,
+    "lng": 77.555,
+    "aliases": []
+  },
+  "Rajanukunte": {
+    "lat": 13.166,
+    "lng": 77.564,
+    "aliases": [
+      "rajankunte"
+    ]
+  },
+  "Rajarajeshwari Nagar": {
+    "lat": 12.9274,
+    "lng": 77.5155,
+    "aliases": [
+      "rr nagar",
+      "rajarajeshwarinagar"
+    ]
+  },
+  "Residency Road": {
+    "lat": 12.968,
+    "lng": 77.602,
+    "aliases": []
+  },
+  "Richards Town": {
+    "lat": 13.001,
+    "lng": 77.62,
+    "aliases": []
+  },
+  "Richmond Road": {
+    "lat": 12.965,
+    "lng": 77.6,
+    "aliases": []
+  },
+  "Richmond Town": {
+    "lat": 12.962,
+    "lng": 77.603,
+    "aliases": []
+  },
+  "SG Palya": {
+    "lat": 12.933,
+    "lng": 77.609,
+    "aliases": [
+      "sg palya",
+      "s g palya"
+    ]
+  },
+  "Sarjapur Road": {
+    "lat": 12.91,
+    "lng": 77.686,
+    "aliases": [
+      "sarjapura"
+    ]
+  },
+  "Seshadripuram": {
+    "lat": 12.989,
+    "lng": 77.572,
+    "aliases": []
+  },
+  "Shanthinagar": {
+    "lat": 12.958,
+    "lng": 77.598,
+    "aliases": [
+      "shantinagar"
+    ]
+  },
+  "Shivajinagar": {
+    "lat": 12.985,
+    "lng": 77.605,
+    "aliases": []
+  },
+  "Soladevanahalli": {
+    "lat": 13.083,
+    "lng": 77.484,
+    "aliases": []
+  },
+  "Tumakuru Road": {
+    "lat": 13.063,
+    "lng": 77.474,
+    "aliases": [
+      "tumkur road"
+    ]
+  },
+  "VV Puram": {
+    "lat": 12.949,
+    "lng": 77.572,
+    "aliases": [
+      "vv puram",
+      "v v puram",
+      "visveswarapuram"
+    ]
+  },
+  "Vasanth Nagar": {
+    "lat": 12.989,
+    "lng": 77.592,
+    "aliases": [
+      "vasanthnagar"
+    ]
+  },
+  "Viveknagar": {
+    "lat": 12.95,
+    "lng": 77.625,
+    "aliases": [
+      "vivek nagar"
+    ]
+  },
+  "Whitefield": {
+    "lat": 12.9698,
+    "lng": 77.75,
+    "aliases": [
+      "itpl"
+    ]
+  },
+  "Yelahanka": {
+    "lat": 13.1007,
+    "lng": 77.5963,
+    "aliases": []
+  },
+  "Yeshwanthpur": {
+    "lat": 13.0285,
+    "lng": 77.54,
+    "aliases": [
+      "yeshwantpur",
+      "yesvantpur"
+    ]
+  }
+}

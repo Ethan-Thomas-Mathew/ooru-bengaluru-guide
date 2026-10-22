@@ -1,0 +1,397 @@
+[
+  {
+    "id": "sh-bimal-domlur",
+    "name": "Bimal Auto Agency, Amarjyoti Layout",
+    "brand": "Maruti Suzuki",
+    "area": "Domlur",
+    "segment": [
+      "Car"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "No. 371 & 372, Intermediate Ring Road, Amarjyoti Layout 560071",
+    "source": "https://www.timesdrive.in/car-dealers/maruti-suzuki-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-bimal-banaswadi",
+    "name": "Bimal Auto Agency, Banaswadi",
+    "brand": "Maruti Suzuki",
+    "area": "Banaswadi",
+    "segment": [
+      "Car"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "No. 82, Banaswadi Main Road, Subramanyapalya 560043",
+    "source": "https://www.timesdrive.in/car-dealers/maruti-suzuki-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-bimal-bsk",
+    "name": "Bimal Auto Agency, Banashankari",
+    "brand": "Maruti Suzuki",
+    "area": "Banashankari",
+    "segment": [
+      "Car"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "3980/81, Hosakerehalli Main Road, near Sita Circle 560085",
+    "source": "https://www.timesdrive.in/car-dealers/maruti-suzuki-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-bimal-kanakapura",
+    "name": "Bimal Auto Agency, Kanakapura Road",
+    "brand": "Maruti Suzuki",
+    "area": "Kanakapura Road",
+    "segment": [
+      "Car"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "69/2, Kanakapura Road, near Sarakki metro station 560078",
+    "source": "https://www.timesdrive.in/car-dealers/maruti-suzuki-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-bharat-toyota",
+    "name": "Bharat Toyota, Domlur",
+    "brand": "Toyota",
+    "area": "Domlur",
+    "segment": [
+      "Car",
+      "SUV"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "No 526–529, 100 Feet Rd, Amarjyoti Layout, Domlur 560071",
+    "source": "https://www.autocarindia.com/cars/toyota/dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-nandi-toyota",
+    "name": "Nandi Toyota, Hosur Road",
+    "brand": "Toyota",
+    "area": "Hosur Road",
+    "segment": [
+      "Car",
+      "SUV"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "46/3A, 7th Mile, Hosur Rd, Kudlu Gate 560068",
+    "source": "https://www.autocarindia.com/cars/toyota/dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-advaith-kia-bsk",
+    "name": "Advaith Kia, Banashankari",
+    "brand": "Kia",
+    "area": "Banashankari",
+    "segment": [
+      "Car",
+      "SUV"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "Fortuna House, #184, Outer Ring Rd, Banashankari 3rd Stage 560085",
+    "source": "https://www.timesdrive.in/car-dealers/kia-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-advaith-kia-lalbagh",
+    "name": "Advaith Kia, Lalbagh Road",
+    "brand": "Kia",
+    "area": "Lalbagh Road",
+    "segment": [
+      "Car",
+      "SUV"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "No 71 & 71/1, Lalbagh Main Road 560027",
+    "source": "https://www.timesdrive.in/car-dealers/kia-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-advaith-kia-bnagar",
+    "name": "Advaith Kia, Basaveshwara Nagar",
+    "brand": "Kia",
+    "area": "Basaveshwara Nagar",
+    "segment": [
+      "Car",
+      "SUV"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "Karaina Chambers IV, 1st Main Road, 2nd Block, 3rd Stage, Basaveshwara Nagar 560079",
+    "source": "https://www.timesdrive.in/car-dealers/kia-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-advaith-hyundai",
+    "name": "Advaith Hyundai, Residency Road",
+    "brand": "Hyundai",
+    "area": "Residency Road",
+    "segment": [
+      "Car",
+      "SUV"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "32, Residency Rd, opposite Hotel Gateway, Ashok Nagar 560025",
+    "source": "https://www.autocarindia.com/cars/hyundai/dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-adishakti-kalyan",
+    "name": "Adishakti Cars, Kalyan Nagar",
+    "brand": "Tata",
+    "area": "Kalyan Nagar",
+    "segment": [
+      "Car",
+      "SUV",
+      "EV"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "109/1, Horamavu Outer Ring Road, Kalyan Nagar 560043",
+    "source": "https://www.autocarindia.com/cars/tata/dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-adishakti-hebbal",
+    "name": "Adishakti Cars, Hebbal",
+    "brand": "Tata",
+    "area": "Hebbal",
+    "segment": [
+      "Car",
+      "SUV",
+      "EV"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "56, opposite Lumbini Gardens, Veeranna Palya Ring Road 560045",
+    "source": "https://www.autocarindia.com/cars/tata/dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-dakshin-honda",
+    "name": "Dakshin Honda, Lavelle Road",
+    "brand": "Honda",
+    "area": "Lavelle Road",
+    "segment": [
+      "Car"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "No. 40, Prestige Tudor Court, Lavelle Road 560001",
+    "source": "https://www.autocarindia.com/cars/honda/dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-brigade-honda",
+    "name": "Brigade Honda, Yelahanka",
+    "brand": "Honda",
+    "area": "Yelahanka",
+    "segment": [
+      "Car"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "Venkatala, Yelahanka 560064",
+    "source": "https://www.autocarindia.com/cars/honda/dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-mg-central",
+    "name": "MG Jubilant Motorworks, Bangalore Central",
+    "brand": "MG",
+    "area": "Lavelle Road",
+    "segment": [
+      "Car",
+      "SUV",
+      "EV"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "40/1, Ground Floor, Lavelle Road, Ashok Nagar 560001",
+    "source": "https://www.autocarindia.com/cars/mg/dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-mg-ecity",
+    "name": "MG Jubilant Motorworks, E-City",
+    "brand": "MG",
+    "area": "Electronic City",
+    "segment": [
+      "Car",
+      "SUV",
+      "EV"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "195/6/2, Beratena Agrahara, Hosur Road 560100",
+    "source": "https://www.autocarindia.com/cars/mg/dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-bmw-deutsche",
+    "name": "BMW Deutsche Motoren, Jayanagar",
+    "brand": "BMW",
+    "area": "Jayanagar",
+    "segment": [
+      "Car",
+      "Luxury"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "Jodh Tower, 40, 27th Cross, 5th Main Rd, 4th Block, Jayanagar 560011",
+    "source": "https://www.timesdrive.in/car-dealers/bmw-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-bmw-kun",
+    "name": "BMW KUN Exclusive, Lavelle Road",
+    "brand": "BMW",
+    "area": "Lavelle Road",
+    "segment": [
+      "Car",
+      "Luxury"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "Prestige Emerald, Ground Floor, Madras Bank Road, Lavelle Road 560001",
+    "source": "https://www.timesdrive.in/car-dealers/bmw-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-advaith-merc",
+    "name": "Advaith Motors (Mercedes-Benz), Koramangala",
+    "brand": "Mercedes-Benz",
+    "area": "Koramangala",
+    "segment": [
+      "Car",
+      "Luxury"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "No 107/3, 80 Feet Road, Koramangala 4th Block 560034",
+    "source": "https://www.timesdrive.in/car-dealers/mercedes-benz-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-sundaram-merc",
+    "name": "Sundaram Motors (Mercedes-Benz), Ashok Nagar",
+    "brand": "Mercedes-Benz",
+    "area": "Kasturba Road",
+    "segment": [
+      "Car",
+      "Luxury"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "107, Kasturba Rd, opposite Venkatappa Art Gallery 560001",
+    "source": "https://www.timesdrive.in/car-dealers/mercedes-benz-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-accelerate-re",
+    "name": "Accelerate Motors (Royal Enfield), RR Nagar",
+    "brand": "Royal Enfield",
+    "area": "Rajarajeshwari Nagar",
+    "segment": [
+      "Bike"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "No 335, Ideal Homes Township, Rajarajeshwari Nagar 560098",
+    "source": "https://www.timesdrive.in/bike-dealers/royal-enfield-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-acclaim-re",
+    "name": "Acclaim Motors (Royal Enfield), Yelahanka",
+    "brand": "Royal Enfield",
+    "area": "Yelahanka",
+    "segment": [
+      "Bike"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "Pyramid North Square, Nehru Nagar, Bellary Road, Yelahanka 560064",
+    "source": "https://www.timesdrive.in/bike-dealers/royal-enfield-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-avahan-re",
+    "name": "Avahan Motors (Royal Enfield), Kalyan Nagar",
+    "brand": "Royal Enfield",
+    "area": "Kalyan Nagar",
+    "segment": [
+      "Bike"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "812, 5th A Cross Road, HRBR Layout 1st Block 560043",
+    "source": "https://www.timesdrive.in/bike-dealers/royal-enfield-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-ambika-tvs",
+    "name": "Ambika Motors (TVS), Seppings Road",
+    "brand": "TVS",
+    "area": "Shivajinagar",
+    "segment": [
+      "Bike",
+      "Scooter"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "No. 175, 5th Cross, Seppings Road 560001",
+    "source": "https://www.timesdrive.in/bike-dealers/tvs-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sh-arunagiri-tvs",
+    "name": "Arunagiri Motors (TVS), Bommanahalli",
+    "brand": "TVS",
+    "area": "Bommanahalli",
+    "segment": [
+      "Bike",
+      "Scooter"
+    ],
+    "services": [
+      "Sales"
+    ],
+    "address": "45, Hosur Rd, NGR Layout, Roopena Agrahara 560068",
+    "source": "https://www.timesdrive.in/bike-dealers/tvs-dealers-in-bangalore",
+    "checked": "2026-10-22"
+  }
+]

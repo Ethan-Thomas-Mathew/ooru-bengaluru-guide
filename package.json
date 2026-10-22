@@ -1,0 +1,53 @@
+{
+  "name": "ooru-bengaluru-guide",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n web,api -c magenta,green \"vite\" \"npm:dev:api\"",
+    "dev:api": "tsx watch --disable-warning=ExperimentalWarning server/index.ts",
+    "build": "tsc -b && vite build",
+    "start": "npm run build && tsx --disable-warning=ExperimentalWarning server/index.ts --serve",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "lint": "oxlint src server shared",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"server/**/*.ts\" \"shared/**/*.ts\" \"*.{ts,json,md}\"",
+    "check": "npm run typecheck && npm run lint && npm run test"
+  },
+  "dependencies": {
+    "animejs": "^4.5.0",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "leaflet": "^1.9.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.4",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@types/supertest": "^7.2.1",
+    "@vitejs/plugin-react": "^6.1.1",
+    "concurrently": "^10.0.6",
+    "oxlint": "^1.81.0",
+    "prettier": "^3.9.9",
+    "supertest": "^7.3.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.0.3",
+    "workbox-window": "^7.4.1"
+  },
+  "description": "Bengaluru city guide: colleges, PGs, food, bus and metro, day planner. React + TypeScript + Express + SQLite.",
+  "engines": {
+    "node": ">=22.13"
+  }
+}

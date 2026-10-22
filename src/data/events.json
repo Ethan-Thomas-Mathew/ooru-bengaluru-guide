@@ -1,0 +1,216 @@
+[
+  {
+    "id": "ev-namma-run",
+    "name": "Namma Run Bengaluru 2026",
+    "kind": "Run",
+    "date": "2026-10-11",
+    "venue": "NICE Road, Hosakerehalli",
+    "area": "Hosakerehalli",
+    "distances": [
+      "1K",
+      "2K",
+      "3K",
+      "5K",
+      "10K",
+      "21.1K"
+    ],
+    "organizer": "Network18"
+  },
+  {
+    "id": "ev-dare-run",
+    "name": "Dare Run 2026",
+    "kind": "Run",
+    "date": "2026-10-11",
+    "venue": "Bengaluru",
+    "area": "Bengaluru",
+    "distances": [
+      "5K",
+      "10K"
+    ],
+    "organizer": "DHEE Hospitals"
+  },
+  {
+    "id": "ev-breakthrough",
+    "name": "BeAthlit Breakthrough Run 2026",
+    "kind": "Run",
+    "date": "2026-10-25",
+    "venue": "Dwaraka Nagar",
+    "area": "Dwaraka Nagar",
+    "distances": [
+      "1.6K",
+      "3K",
+      "5K",
+      "10K",
+      "21.1K"
+    ],
+    "organizer": "BeAthlit"
+  },
+  {
+    "id": "ev-neerathon",
+    "name": "IPA Neerathon Bengaluru 2026",
+    "kind": "Run",
+    "date": "2026-10-25",
+    "venue": "D'Souza Layout",
+    "area": "D'Souza Layout",
+    "distances": [
+      "3K",
+      "5K",
+      "10K"
+    ],
+    "organizer": "Indian Plumbing Association"
+  },
+  {
+    "id": "ev-hoysala",
+    "name": "Hoysala Hustle 2026",
+    "kind": "Run",
+    "date": "2026-11-01",
+    "venue": "Bengaluru",
+    "area": "Bengaluru",
+    "distances": [
+      "3K",
+      "5K",
+      "10K",
+      "21K"
+    ],
+    "organizer": "Bhasin Sports"
+  },
+  {
+    "id": "ev-diabetes-run",
+    "name": "World Diabetic Awareness Day Run 2026",
+    "kind": "Run",
+    "date": "2026-11-14",
+    "venue": "Bengaluru",
+    "area": "Bengaluru",
+    "distances": [
+      "3K",
+      "5K",
+      "10K"
+    ],
+    "organizer": "Karunavayu Foundation"
+  },
+  {
+    "id": "ev-hrx",
+    "name": "HRX Half Marathon 4",
+    "kind": "Marathon",
+    "date": "2026-11-15",
+    "venue": "Bengaluru",
+    "area": "Bengaluru",
+    "distances": [
+      "5K",
+      "10K",
+      "21.1K"
+    ],
+    "organizer": "HRX"
+  },
+  {
+    "id": "ev-bts",
+    "name": "Bengaluru Tech Summit 2026",
+    "kind": "Expo",
+    "date": "2026-11-17",
+    "endDate": "2026-11-19",
+    "venue": "BIEC, Tumakuru Road",
+    "area": "Tumakuru Road",
+    "distances": [],
+    "organizer": "Government of Karnataka"
+  },
+  {
+    "id": "ev-pink10k",
+    "name": "Pink 10K Challenge, Season 5",
+    "kind": "Run",
+    "date": "2026-11-22",
+    "venue": "Bengaluru",
+    "area": "Bengaluru",
+    "distances": [
+      "3K",
+      "5K",
+      "10K",
+      "21K"
+    ],
+    "organizer": "Assist Help Foundation"
+  },
+  {
+    "id": "ev-parishe",
+    "name": "Kadalekai Parishe (groundnut fair)",
+    "kind": "Festival",
+    "date": null,
+    "dateLabel": "Late Nov, date TBA",
+    "venue": "Bull Temple Road, Basavanagudi",
+    "area": "Basavanagudi",
+    "distances": [],
+    "organizer": "Traditional fair"
+  },
+  {
+    "id": "ev-midnight",
+    "name": "Bengaluru Midnight Marathon 2026",
+    "kind": "Marathon",
+    "date": "2026-12-05",
+    "venue": "Bengaluru",
+    "area": "Bengaluru",
+    "distances": [
+      "5K",
+      "10K",
+      "21.1K",
+      "31.6K",
+      "42.2K"
+    ],
+    "organizer": "Bengaluru Midnight Marathon"
+  },
+  {
+    "id": "ev-dhash",
+    "name": "DHASH Bengaluru Half Marathon 2026",
+    "kind": "Marathon",
+    "date": "2026-12-06",
+    "venue": "Bengaluru",
+    "area": "Bengaluru",
+    "distances": [
+      "5K",
+      "10K",
+      "21K"
+    ],
+    "organizer": "Lifeiscalling Sports"
+  },
+  {
+    "id": "ev-times-half",
+    "name": "Times Internet Bengaluru Half Marathon",
+    "kind": "Marathon",
+    "date": "2026-12-13",
+    "venue": "Bengaluru",
+    "area": "Bengaluru",
+    "distances": [
+      "3K",
+      "5K",
+      "10K",
+      "21K"
+    ],
+    "organizer": "Times Internet"
+  },
+  {
+    "id": "ev-thump",
+    "name": "THUMP! Celebration Bengaluru 2026",
+    "kind": "Marathon",
+    "date": "2026-12-20",
+    "venue": "Dwaraka Nagar",
+    "area": "Dwaraka Nagar",
+    "distances": [
+      "5K",
+      "10K",
+      "21.1K",
+      "32K"
+    ],
+    "organizer": "Life is Calling Sports"
+  },
+  {
+    "id": "ev-chalo-bharat",
+    "name": "Chalo Bharat Walkathon, Bengaluru",
+    "kind": "Walk",
+    "date": "2027-03-14",
+    "venue": "Bengaluru",
+    "area": "Bengaluru",
+    "distances": [
+      "3K",
+      "5K",
+      "10K"
+    ],
+    "organizer": "PlayFree Sports India"
+  }
+]

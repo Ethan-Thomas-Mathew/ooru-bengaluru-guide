@@ -1,0 +1,338 @@
+[
+  {
+    "id": "s-bcbs",
+    "name": "Bishop Cotton Boys' School",
+    "board": [
+      "ICSE"
+    ],
+    "gender": "Boys",
+    "area": "Richmond Road",
+    "feesPerYear": 250000
+  },
+  {
+    "id": "s-bcgs",
+    "name": "Bishop Cotton Girls' School",
+    "board": [
+      "ICSE"
+    ],
+    "gender": "Girls",
+    "area": "Richmond Road",
+    "feesPerYear": 220000
+  },
+  {
+    "id": "s-nps-indira",
+    "name": "National Public School, Indiranagar",
+    "board": [
+      "CBSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Indiranagar",
+    "feesPerYear": 200000
+  },
+  {
+    "id": "s-stonehill",
+    "name": "Stonehill International School",
+    "board": [
+      "IB"
+    ],
+    "gender": "Co-ed",
+    "area": "Tumakuru Road",
+    "feesPerYear": 1200000
+  },
+  {
+    "id": "s-baldwin",
+    "name": "Baldwin Boys' High School",
+    "board": [
+      "ICSE"
+    ],
+    "gender": "Boys",
+    "area": "Richmond Town",
+    "feesPerYear": 150000
+  },
+  {
+    "id": "s-dps-east",
+    "name": "Delhi Public School, Bangalore East",
+    "board": [
+      "CBSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Whitefield",
+    "feesPerYear": 210000
+  },
+  {
+    "id": "s-mallya",
+    "name": "Mallya Aditi International School",
+    "board": [
+      "ICSE",
+      "IGCSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Yelahanka",
+    "feesPerYear": 600000
+  },
+  {
+    "id": "s-nps-kor",
+    "name": "National Public School, Koramangala",
+    "board": [
+      "CBSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Koramangala",
+    "feesPerYear": 200000
+  },
+  {
+    "id": "s-cis",
+    "name": "Canadian International School",
+    "board": [
+      "IB"
+    ],
+    "gender": "Co-ed",
+    "area": "Yelahanka",
+    "feesPerYear": 1100000
+  },
+  {
+    "id": "s-clarence",
+    "name": "Clarence High School",
+    "board": [
+      "ICSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Richards Town",
+    "feesPerYear": 120000
+  },
+  {
+    "id": "s-sophia",
+    "name": "Sophia High School",
+    "board": [
+      "ICSE"
+    ],
+    "gender": "Girls",
+    "area": "Palace Road",
+    "feesPerYear": 90000
+  },
+  {
+    "id": "s-inventure",
+    "name": "Inventure Academy",
+    "board": [
+      "ICSE",
+      "IGCSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Sarjapur Road",
+    "feesPerYear": 500000
+  },
+  {
+    "id": "s-frank",
+    "name": "Frank Anthony Public School",
+    "board": [
+      "ICSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Cleveland Town",
+    "feesPerYear": 110000
+  },
+  {
+    "id": "s-kv-hebbal",
+    "name": "Kendriya Vidyalaya, Hebbal",
+    "board": [
+      "CBSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Hebbal",
+    "feesPerYear": 15000
+  },
+  {
+    "id": "s-national-hs",
+    "name": "National High School",
+    "board": [
+      "State"
+    ],
+    "gender": "Co-ed",
+    "area": "Basavanagudi",
+    "feesPerYear": 25000
+  },
+  {
+    "id": "s-vijaya",
+    "name": "Vijaya High School",
+    "board": [
+      "State"
+    ],
+    "gender": "Co-ed",
+    "area": "Jayanagar",
+    "feesPerYear": 30000
+  },
+  {
+    "id": "s-seshadri",
+    "name": "Seshadripuram High School",
+    "board": [
+      "State"
+    ],
+    "gender": "Co-ed",
+    "area": "Seshadripuram",
+    "feesPerYear": 20000
+  },
+  {
+    "id": "s-greenwood",
+    "name": "Greenwood High International School",
+    "board": [
+      "ICSE",
+      "IGCSE",
+      "IB"
+    ],
+    "gender": "Co-ed",
+    "area": "Sarjapur Road",
+    "feesPerYear": 400000
+  },
+  {
+    "id": "s-tisb",
+    "name": "The International School Bangalore (TISB)",
+    "board": [
+      "IB",
+      "IGCSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Sarjapur Road",
+    "feesPerYear": 900000
+  },
+  {
+    "id": "s-sjbhs",
+    "name": "St. Joseph's Boys' High School",
+    "board": [
+      "ICSE"
+    ],
+    "gender": "Boys",
+    "area": "Museum Road",
+    "feesPerYear": 130000
+  },
+  {
+    "id": "s-cathedral",
+    "name": "Cathedral High School",
+    "board": [
+      "ICSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Richmond Road",
+    "feesPerYear": 140000
+  },
+  {
+    "id": "s-bethany",
+    "name": "Bethany High",
+    "board": [
+      "ICSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Koramangala",
+    "feesPerYear": 180000
+  },
+  {
+    "id": "s-dps-south",
+    "name": "Delhi Public School, Bangalore South",
+    "board": [
+      "CBSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Kanakapura Road",
+    "feesPerYear": 200000
+  },
+  {
+    "id": "s-dps-north",
+    "name": "Delhi Public School, Bangalore North",
+    "board": [
+      "CBSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Yelahanka",
+    "feesPerYear": 200000
+  },
+  {
+    "id": "s-nps-hsr",
+    "name": "National Public School, HSR Layout",
+    "board": [
+      "CBSE"
+    ],
+    "gender": "Co-ed",
+    "area": "HSR Layout",
+    "feesPerYear": 190000
+  },
+  {
+    "id": "s-kv-mall",
+    "name": "Kendriya Vidyalaya, Malleshwaram",
+    "board": [
+      "CBSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Malleshwaram",
+    "feesPerYear": 15000
+  },
+  {
+    "id": "s-aps",
+    "name": "Army Public School",
+    "board": [
+      "CBSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Kamaraj Road",
+    "feesPerYear": 40000
+  },
+  {
+    "id": "s-ryan-bel",
+    "name": "Ryan International School, Bannerghatta Road",
+    "board": [
+      "CBSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Bannerghatta Road",
+    "feesPerYear": 120000
+  },
+  {
+    "id": "s-ryan-yel",
+    "name": "Ryan International School, Yelahanka",
+    "board": [
+      "CBSE",
+      "ICSE"
+    ],
+    "gender": "Co-ed",
+    "area": "Yelahanka",
+    "feesPerYear": 110000
+  },
+  {
+    "id": "s-acharya-path",
+    "name": "Acharya Pathasala Public School",
+    "board": [
+      "State"
+    ],
+    "gender": "Co-ed",
+    "area": "Basavanagudi",
+    "feesPerYear": 30000
+  },
+  {
+    "id": "s-mes-kk",
+    "name": "MES Kishore Kendra",
+    "board": [
+      "State"
+    ],
+    "gender": "Co-ed",
+    "area": "Malleshwaram",
+    "feesPerYear": 25000
+  },
+  {
+    "id": "s-vvs",
+    "name": "Vidya Vardhaka Sangha School",
+    "board": [
+      "State"
+    ],
+    "gender": "Co-ed",
+    "area": "Rajajinagar",
+    "feesPerYear": 22000
+  },
+  {
+    "id": "s-gmps-jayanagar",
+    "name": "Government Model Primary School, Jayanagar",
+    "board": [
+      "State"
+    ],
+    "gender": "Co-ed",
+    "area": "Jayanagar",
+    "feesPerYear": 0
+  }
+]

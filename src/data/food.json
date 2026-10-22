@@ -1,0 +1,281 @@
+[
+  {
+    "id": "f-mtr",
+    "name": "MTR (Mavalli Tiffin Room)",
+    "area": "Lalbagh Road",
+    "cuisine": "South Indian",
+    "diet": "Veg",
+    "costForTwo": 400,
+    "knownFor": "Rava idli, filter coffee"
+  },
+  {
+    "id": "f-vb",
+    "name": "Vidyarthi Bhavan",
+    "area": "Basavanagudi",
+    "cuisine": "South Indian",
+    "diet": "Veg",
+    "costForTwo": 300,
+    "knownFor": "Crisp masala dosa"
+  },
+  {
+    "id": "f-ctr",
+    "name": "Central Tiffin Room (CTR)",
+    "area": "Malleshwaram",
+    "cuisine": "South Indian",
+    "diet": "Veg",
+    "costForTwo": 250,
+    "knownFor": "Benne masala dosa"
+  },
+  {
+    "id": "f-veena",
+    "name": "Veena Stores",
+    "area": "Malleshwaram",
+    "cuisine": "South Indian",
+    "diet": "Veg",
+    "costForTwo": 150,
+    "knownFor": "Idli with chutney"
+  },
+  {
+    "id": "f-brahmins",
+    "name": "Brahmin's Coffee Bar",
+    "area": "Basavanagudi",
+    "cuisine": "South Indian",
+    "diet": "Veg",
+    "costForTwo": 150,
+    "knownFor": "Idli vada, coffee"
+  },
+  {
+    "id": "f-rameshwaram",
+    "name": "The Rameshwaram Cafe",
+    "area": "Indiranagar",
+    "cuisine": "South Indian",
+    "diet": "Veg",
+    "costForTwo": 300,
+    "knownFor": "Ghee podi idli"
+  },
+  {
+    "id": "f-taaza",
+    "name": "Taaza Thindi",
+    "area": "Jayanagar",
+    "cuisine": "South Indian",
+    "diet": "Veg",
+    "costForTwo": 150,
+    "knownFor": "Quick breakfast"
+  },
+  {
+    "id": "f-airlines",
+    "name": "Airlines Hotel",
+    "area": "MG Road",
+    "cuisine": "South Indian",
+    "diet": "Veg",
+    "costForTwo": 350,
+    "knownFor": "Open-air breakfast"
+  },
+  {
+    "id": "f-meghana",
+    "name": "Meghana Foods",
+    "area": "Koramangala",
+    "cuisine": "Biryani",
+    "diet": "Both",
+    "costForTwo": 800,
+    "knownFor": "Andhra-style biryani"
+  },
+  {
+    "id": "f-shivaji",
+    "name": "Shivaji Military Hotel",
+    "area": "Jayanagar",
+    "cuisine": "Biryani",
+    "diet": "Non-veg",
+    "costForTwo": 500,
+    "knownFor": "Donne biryani"
+  },
+  {
+    "id": "f-nagarjuna",
+    "name": "Nagarjuna",
+    "area": "MG Road",
+    "cuisine": "Andhra",
+    "diet": "Both",
+    "costForTwo": 900,
+    "knownFor": "Andhra meals"
+  },
+  {
+    "id": "f-empire",
+    "name": "Empire Restaurant",
+    "area": "MG Road",
+    "cuisine": "Mughlai",
+    "diet": "Non-veg",
+    "costForTwo": 600,
+    "knownFor": "Late-night ghee rice and kebabs"
+  },
+  {
+    "id": "f-koshys",
+    "name": "Koshy's",
+    "area": "MG Road",
+    "cuisine": "Continental",
+    "diet": "Both",
+    "costForTwo": 900,
+    "knownFor": "Old-Bangalore cafe"
+  },
+  {
+    "id": "f-truffles",
+    "name": "Truffles",
+    "area": "Koramangala",
+    "cuisine": "Cafe",
+    "diet": "Both",
+    "costForTwo": 900,
+    "knownFor": "Burgers and shakes"
+  },
+  {
+    "id": "f-cornerhouse",
+    "name": "Corner House",
+    "area": "Jayanagar",
+    "cuisine": "Desserts",
+    "diet": "Veg",
+    "costForTwo": 300,
+    "knownFor": "Death by Chocolate"
+  },
+  {
+    "id": "f-toit",
+    "name": "Toit",
+    "area": "Indiranagar",
+    "cuisine": "Pub",
+    "diet": "Both",
+    "costForTwo": 2000,
+    "knownFor": "Craft beer brewery"
+  },
+  {
+    "id": "f-hallimane",
+    "name": "Halli Mane",
+    "area": "Malleshwaram",
+    "cuisine": "South Indian",
+    "diet": "Veg",
+    "costForTwo": 250,
+    "knownFor": "Akki roti, ragi mudde"
+  },
+  {
+    "id": "f-dwaraka",
+    "name": "Hotel Dwaraka",
+    "area": "Basavanagudi",
+    "cuisine": "South Indian",
+    "diet": "Veg",
+    "costForTwo": 200,
+    "knownFor": "Masala dosa, kesari bath"
+  },
+  {
+    "id": "f-thindibeedi",
+    "name": "VV Puram Food Street (Thindi Beedi)",
+    "area": "VV Puram",
+    "cuisine": "Street food",
+    "diet": "Veg",
+    "costForTwo": 300,
+    "knownFor": "Holige, dosa, gulkand"
+  },
+  {
+    "id": "f-albert",
+    "name": "Albert Bakery",
+    "area": "Frazer Town",
+    "cuisine": "Bakery",
+    "diet": "Both",
+    "costForTwo": 300,
+    "knownFor": "Mutton puffs, khova naan"
+  },
+  {
+    "id": "f-fanoos",
+    "name": "Fanoos",
+    "area": "Richards Town",
+    "cuisine": "Arabian",
+    "diet": "Non-veg",
+    "costForTwo": 500,
+    "knownFor": "Shawarma, grilled chicken"
+  },
+  {
+    "id": "f-nandhini",
+    "name": "Nandhini Deluxe",
+    "area": "Jayanagar",
+    "cuisine": "Andhra",
+    "diet": "Both",
+    "costForTwo": 800,
+    "knownFor": "Andhra meals, biryani"
+  },
+  {
+    "id": "f-karavalli",
+    "name": "Karavalli",
+    "area": "MG Road",
+    "cuisine": "Coastal",
+    "diet": "Both",
+    "costForTwo": 4000,
+    "knownFor": "Mangalorean and Kerala seafood"
+  },
+  {
+    "id": "f-natural",
+    "name": "Natural Ice Cream",
+    "area": "Jayanagar",
+    "cuisine": "Desserts",
+    "diet": "Veg",
+    "costForTwo": 250,
+    "knownFor": "Tender coconut ice cream"
+  },
+  {
+    "id": "f-thirdwave",
+    "name": "Third Wave Coffee",
+    "area": "Koramangala",
+    "cuisine": "Cafe",
+    "diet": "Veg",
+    "costForTwo": 600,
+    "knownFor": "Pour-over coffee"
+  },
+  {
+    "id": "f-meghana-jay",
+    "name": "Meghana Foods, Jayanagar",
+    "area": "Jayanagar",
+    "cuisine": "Biryani",
+    "diet": "Both",
+    "costForTwo": 800,
+    "knownFor": "Boneless chicken biryani"
+  },
+  {
+    "id": "f-empire-kor",
+    "name": "Empire Restaurant, Koramangala",
+    "area": "Koramangala",
+    "cuisine": "Mughlai",
+    "diet": "Non-veg",
+    "costForTwo": 600,
+    "knownFor": "Kebabs, ghee rice"
+  },
+  {
+    "id": "f-byg",
+    "name": "Byg Brewski Brewing Company",
+    "area": "Hennur",
+    "cuisine": "Pub",
+    "diet": "Both",
+    "costForTwo": 2500,
+    "knownFor": "Large open-air brewery"
+  },
+  {
+    "id": "f-rameshwaram-jp",
+    "name": "The Rameshwaram Cafe, JP Nagar",
+    "area": "JP Nagar",
+    "cuisine": "South Indian",
+    "diet": "Veg",
+    "costForTwo": 300,
+    "knownFor": "Ghee podi idli, filter coffee"
+  },
+  {
+    "id": "f-bobs",
+    "name": "Bob’s Bar",
+    "area": "Indiranagar",
+    "cuisine": "Pub",
+    "diet": "Both",
+    "costForTwo": 1200,
+    "knownFor": "Budget pub"
+  },
+  {
+    "id": "f-chickpet",
+    "name": "Chickpet Donne Biryani House",
+    "area": "Chickpet",
+    "cuisine": "Biryani",
+    "diet": "Non-veg",
+    "costForTwo": 400,
+    "knownFor": "Donne biryani"
+  }
+]

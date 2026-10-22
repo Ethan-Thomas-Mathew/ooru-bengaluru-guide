@@ -1,0 +1,12 @@
+{
+  // The project has three parts, each with its own settings:
+  //   app    = the website (src/ and shared/)
+  //   server = the Express API (server/ and shared/)
+  //   node   = config files like vite.config.ts
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.server.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

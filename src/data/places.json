@@ -1,0 +1,404 @@
+[
+  {
+    "id": "pl-iskcon",
+    "name": "ISKCON Temple",
+    "kind": "Temple",
+    "group": "Religious",
+    "area": "Rajajinagar",
+    "entryFee": 0,
+    "timings": "4:15 AM – 8:30 PM",
+    "visitMins": 75
+  },
+  {
+    "id": "pl-bull",
+    "name": "Bull Temple (Dodda Basavana Gudi)",
+    "kind": "Temple",
+    "group": "Religious",
+    "area": "Basavanagudi",
+    "entryFee": 0,
+    "timings": "6 AM – 8 PM",
+    "visitMins": 30
+  },
+  {
+    "id": "pl-gavi",
+    "name": "Gavi Gangadhareshwara Temple",
+    "kind": "Temple",
+    "group": "Religious",
+    "area": "Gavipuram",
+    "entryFee": 0,
+    "timings": "7 AM – 8 PM",
+    "visitMins": 30
+  },
+  {
+    "id": "pl-ragigudda",
+    "name": "Ragigudda Anjaneya Temple",
+    "kind": "Temple",
+    "group": "Religious",
+    "area": "Jayanagar",
+    "entryFee": 0,
+    "timings": "6 AM – 9 PM",
+    "visitMins": 40
+  },
+  {
+    "id": "pl-kadu",
+    "name": "Kadu Malleshwara Temple",
+    "kind": "Temple",
+    "group": "Religious",
+    "area": "Malleshwaram",
+    "entryFee": 0,
+    "timings": "6 AM – 8:30 PM",
+    "visitMins": 30
+  },
+  {
+    "id": "pl-stmary",
+    "name": "St. Mary's Basilica",
+    "kind": "Church",
+    "group": "Religious",
+    "area": "Shivajinagar",
+    "entryFee": 0,
+    "timings": "5:30 AM – 8 PM",
+    "visitMins": 30
+  },
+  {
+    "id": "pl-stmark",
+    "name": "St. Mark's Cathedral",
+    "kind": "Church",
+    "group": "Religious",
+    "area": "MG Road",
+    "entryFee": 0,
+    "timings": "8 AM – 6 PM",
+    "visitMins": 30
+  },
+  {
+    "id": "pl-jamia",
+    "name": "Jamia Masjid",
+    "kind": "Mosque",
+    "group": "Religious",
+    "area": "KR Market",
+    "entryFee": 0,
+    "timings": "Open for prayers",
+    "visitMins": 30
+  },
+  {
+    "id": "pl-gurudwara",
+    "name": "Sri Guru Singh Sabha Gurudwara",
+    "kind": "Gurudwara",
+    "group": "Religious",
+    "area": "Halasuru",
+    "entryFee": 0,
+    "timings": "5 AM – 9 PM",
+    "visitMins": 40
+  },
+  {
+    "id": "pl-palace",
+    "name": "Bangalore Palace",
+    "kind": "Palace",
+    "group": "Sightseeing",
+    "area": "Vasanth Nagar",
+    "entryFee": 240,
+    "timings": "10 AM – 5:30 PM (last entry around 5 PM)",
+    "visitMins": 90,
+    "source": "https://www.karnatakatourism.org/tour-item/bangalore-palace/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pl-tipu",
+    "name": "Tipu Sultan's Summer Palace",
+    "kind": "Monument",
+    "group": "Sightseeing",
+    "area": "KR Market",
+    "entryFee": 25,
+    "timings": "8:30 AM – 5:30 PM",
+    "visitMins": 45
+  },
+  {
+    "id": "pl-fort",
+    "name": "Bangalore Fort",
+    "kind": "Monument",
+    "group": "Sightseeing",
+    "area": "KR Market",
+    "entryFee": 0,
+    "timings": "9 AM – 5 PM",
+    "visitMins": 30
+  },
+  {
+    "id": "pl-vidhana",
+    "name": "Vidhana Soudha (outside view)",
+    "kind": "Monument",
+    "group": "Sightseeing",
+    "area": "Ambedkar Veedhi",
+    "entryFee": 0,
+    "timings": "View from outside",
+    "visitMins": 20
+  },
+  {
+    "id": "pl-lalbagh",
+    "name": "Lalbagh Botanical Garden",
+    "kind": "Park",
+    "group": "Sightseeing",
+    "area": "Lalbagh Road",
+    "entryFee": 30,
+    "timings": "6 AM – 7 PM (ticket 9 AM – 6 PM; free walks outside that)",
+    "visitMins": 120,
+    "source": "https://karnatakatourism.org/tour-item/lalbagh-botanical-garden/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pl-cubbon",
+    "name": "Cubbon Park",
+    "kind": "Park",
+    "group": "Sightseeing",
+    "area": "MG Road",
+    "entryFee": 0,
+    "timings": "6 AM – 6 PM",
+    "visitMins": 90
+  },
+  {
+    "id": "pl-vitm",
+    "name": "Visvesvaraya Industrial & Technological Museum",
+    "kind": "Museum",
+    "group": "Sightseeing",
+    "area": "Kasturba Road",
+    "entryFee": null,
+    "timings": "9:30 AM – 6 PM",
+    "visitMins": 120,
+    "priceNote": "Ticket prices were revised in April 2026. See vismuseum.gov.in.",
+    "source": "https://karnatakatourism.org/en/attractions/visvesvaraya-industrial-and-technological-museum",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pl-ngma",
+    "name": "National Gallery of Modern Art",
+    "kind": "Museum",
+    "group": "Sightseeing",
+    "area": "Palace Road",
+    "entryFee": 20,
+    "timings": "10 AM – 5 PM (closed Mon)",
+    "visitMins": 90
+  },
+  {
+    "id": "pl-planetarium",
+    "name": "Jawaharlal Nehru Planetarium",
+    "kind": "Museum",
+    "group": "Sightseeing",
+    "area": "High Grounds",
+    "entryFee": 75,
+    "timings": "Shows from 12:30 PM (closed Mon)",
+    "visitMins": 75
+  },
+  {
+    "id": "pl-ulsoor",
+    "name": "Ulsoor Lake",
+    "kind": "Lake",
+    "group": "Sightseeing",
+    "area": "Halasuru",
+    "entryFee": 0,
+    "timings": "6 AM – 7 PM",
+    "visitMins": 45
+  },
+  {
+    "id": "pl-bannerghatta",
+    "name": "Bannerghatta Biological Park",
+    "kind": "Park",
+    "group": "Sightseeing",
+    "area": "Bannerghatta Road",
+    "entryFee": null,
+    "timings": "9:30 AM – 5 PM (closed Tue)",
+    "visitMins": 240,
+    "priceNote": "Fees went up about 20% in Aug 2025. Check the official site before going.",
+    "source": "https://www.deccanherald.com/india/karnataka/bengaluru/bbp-entry-fee-likely-to-go-up-from-aug-1-3626744",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pl-dodda-ganesha",
+    "name": "Dodda Ganapathi Temple",
+    "kind": "Temple",
+    "group": "Religious",
+    "area": "Basavanagudi",
+    "entryFee": 0,
+    "timings": "7 AM – 8:30 PM",
+    "visitMins": 30
+  },
+  {
+    "id": "pl-someshwara",
+    "name": "Halasuru Someshwara Temple",
+    "kind": "Temple",
+    "group": "Religious",
+    "area": "Halasuru",
+    "entryFee": 0,
+    "timings": "6 AM – 8:30 PM",
+    "visitMins": 40
+  },
+  {
+    "id": "pl-banashankari",
+    "name": "Banashankari Amma Temple",
+    "kind": "Temple",
+    "group": "Religious",
+    "area": "Banashankari",
+    "entryFee": 0,
+    "timings": "6 AM – 9 PM",
+    "visitMins": 40
+  },
+  {
+    "id": "pl-shiva",
+    "name": "Shivoham Shiva Temple",
+    "kind": "Temple",
+    "group": "Religious",
+    "area": "Old Airport Road",
+    "entryFee": 0,
+    "timings": "Open 24 hours",
+    "visitMins": 45
+  },
+  {
+    "id": "pl-infant-jesus",
+    "name": "Infant Jesus Church",
+    "kind": "Church",
+    "group": "Religious",
+    "area": "Viveknagar",
+    "entryFee": 0,
+    "timings": "5:30 AM – 8 PM",
+    "visitMins": 40
+  },
+  {
+    "id": "pl-mahabodhi",
+    "name": "Mahabodhi Society",
+    "kind": "Buddhist",
+    "group": "Religious",
+    "area": "Gandhinagar",
+    "entryFee": 0,
+    "timings": "6 AM – 8 PM",
+    "visitMins": 45
+  },
+  {
+    "id": "pl-hal",
+    "name": "HAL Heritage Centre and Aerospace Museum",
+    "kind": "Museum",
+    "group": "Sightseeing",
+    "area": "Old Airport Road",
+    "entryFee": 100,
+    "timings": "9 AM – 5 PM (closed Mon)",
+    "visitMins": 120
+  },
+  {
+    "id": "pl-govt-museum",
+    "name": "Government Museum and Venkatappa Art Gallery",
+    "kind": "Museum",
+    "group": "Sightseeing",
+    "area": "Kasturba Road",
+    "entryFee": 20,
+    "timings": "10 AM – 5 PM (closed Mon)",
+    "visitMins": 75
+  },
+  {
+    "id": "pl-freedom",
+    "name": "Freedom Park",
+    "kind": "Park",
+    "group": "Sightseeing",
+    "area": "Gandhinagar",
+    "entryFee": 0,
+    "timings": "5 AM – 8 PM",
+    "visitMins": 45
+  },
+  {
+    "id": "pl-sankey",
+    "name": "Sankey Tank",
+    "kind": "Lake",
+    "group": "Sightseeing",
+    "area": "Malleshwaram",
+    "entryFee": 0,
+    "timings": "5:30 AM – 8 PM",
+    "visitMins": 60
+  },
+  {
+    "id": "pl-nandi",
+    "name": "Nandi Hills",
+    "kind": "Hill",
+    "group": "Sightseeing",
+    "area": "Nandi Hills",
+    "entryFee": 20,
+    "timings": "6 AM – 6 PM",
+    "visitMins": 180
+  },
+  {
+    "id": "pl-wonderla",
+    "name": "Wonderla Amusement Park",
+    "kind": "Theme park",
+    "group": "Sightseeing",
+    "area": "Bidadi",
+    "entryFee": null,
+    "timings": "11 AM – 6 PM",
+    "visitMins": 360,
+    "priceNote": "About ₹1,500 on weekdays in late 2024; prices change by day and season. See wonderla.com.",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pl-commercial",
+    "name": "Commercial Street",
+    "kind": "Market",
+    "group": "Sightseeing",
+    "area": "Shivajinagar",
+    "entryFee": 0,
+    "timings": "10:30 AM – 9 PM",
+    "visitMins": 90
+  },
+  {
+    "id": "pl-kr-flower",
+    "name": "KR Market flower market",
+    "kind": "Market",
+    "group": "Sightseeing",
+    "area": "KR Market",
+    "entryFee": 0,
+    "timings": "5 AM – 10 AM best",
+    "visitMins": 45
+  },
+  {
+    "id": "pl-chickpet",
+    "name": "Chickpet shopping",
+    "kind": "Market",
+    "group": "Sightseeing",
+    "area": "Chickpet",
+    "entryFee": 0,
+    "timings": "10 AM – 9 PM",
+    "visitMins": 90
+  },
+  {
+    "id": "pl-phoenix",
+    "name": "Phoenix Marketcity",
+    "kind": "Mall",
+    "group": "Sightseeing",
+    "area": "Mahadevapura",
+    "entryFee": 0,
+    "timings": "10 AM – 10 PM",
+    "visitMins": 150
+  },
+  {
+    "id": "pl-orion",
+    "name": "Orion Mall",
+    "kind": "Mall",
+    "group": "Sightseeing",
+    "area": "Rajajinagar",
+    "entryFee": 0,
+    "timings": "10 AM – 10 PM",
+    "visitMins": 150
+  },
+  {
+    "id": "pl-ubcity",
+    "name": "UB City",
+    "kind": "Mall",
+    "group": "Sightseeing",
+    "area": "MG Road",
+    "entryFee": 0,
+    "timings": "11 AM – 11 PM",
+    "visitMins": 90
+  },
+  {
+    "id": "pl-mantri",
+    "name": "Mantri Square Mall",
+    "kind": "Mall",
+    "group": "Sightseeing",
+    "area": "Malleshwaram",
+    "entryFee": 0,
+    "timings": "10 AM – 10 PM",
+    "visitMins": 120
+  }
+]

@@ -1,0 +1,595 @@
+[
+  {
+    "id": "pg-salzburg",
+    "name": "Stanza Living Salzburg House",
+    "gender": "Boys",
+    "area": "SG Palya",
+    "nearCollege": "Christ University",
+    "collegeId": "c-christ",
+    "sharing": [
+      "Double"
+    ],
+    "rentPerMonth": 20199,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security",
+      "Workout zone"
+    ],
+    "address": "No. 55, 1st Main Rd, Venkateshwara Layout, Suddagunte Palya 560029",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-koramangala/male/salzburg-house",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pg-jerez",
+    "name": "Stanza Living Jerez House",
+    "gender": "Boys",
+    "area": "SG Palya",
+    "nearCollege": "Christ University",
+    "collegeId": "c-christ",
+    "sharing": [
+      "Double",
+      "Triple"
+    ],
+    "rentPerMonth": 11999,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security"
+    ],
+    "address": "7-35, 1st Main Rd, Tavarekere, S.G. Palya 560029",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-koramangala/male/jerez-house",
+    "checked": "2026-10-22",
+    "priceNote": "Double ₹13,999, triple ₹11,999"
+  },
+  {
+    "id": "pg-leeds",
+    "name": "Stanza Living Leeds House",
+    "gender": "Girls",
+    "area": "SG Palya",
+    "nearCollege": "Christ University",
+    "collegeId": "c-christ",
+    "sharing": [
+      "Double"
+    ],
+    "rentPerMonth": 14999,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security"
+    ],
+    "address": "33, 6th Cross Rd, Bhavani Nagar, S.G. Palya 560029",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-koramangala/female/leeds-house",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pg-frankfurt",
+    "name": "Stanza Living Frankfurt House",
+    "gender": "Co-living",
+    "area": "SG Palya",
+    "nearCollege": "Christ University",
+    "collegeId": "c-christ",
+    "sharing": [
+      "Double"
+    ],
+    "rentPerMonth": 15499,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security",
+      "Workout zone"
+    ],
+    "address": "33/1, Christ Ln, near Venkateshwara Layout, S.G. Palya 560029",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-koramangala/co_ed/frankfurt-house",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pg-como",
+    "name": "Stanza Living Como House",
+    "gender": "Girls",
+    "area": "SG Palya",
+    "nearCollege": "Christ University",
+    "collegeId": "c-christ",
+    "sharing": [
+      "Double"
+    ],
+    "rentPerMonth": 14999,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security",
+      "Workout zone"
+    ],
+    "address": "Green Park Apartment, 14, 1st Cross Rd, Tavarekere 560029",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-koramangala/female/como-house",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pg-cordoba",
+    "name": "Stanza Living Cordoba House",
+    "gender": "Boys",
+    "area": "Rajarajeshwari Nagar",
+    "nearCollege": "RV College of Engineering",
+    "collegeId": "c-rvce",
+    "sharing": [
+      "Single",
+      "Triple"
+    ],
+    "rentPerMonth": 13699,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security",
+      "Workout zone"
+    ],
+    "address": "1, Pattanagere Main Rd, Bhel Layout, RR Nagar 560098",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-near-rvce/male/cordoba-house",
+    "checked": "2026-10-22",
+    "priceNote": "Single ₹24,199, triple ₹13,699"
+  },
+  {
+    "id": "pg-crotone",
+    "name": "Stanza Living Crotone House",
+    "gender": "Girls",
+    "area": "Rajarajeshwari Nagar",
+    "nearCollege": "RV College of Engineering",
+    "collegeId": "c-rvce",
+    "sharing": [
+      "Double"
+    ],
+    "rentPerMonth": 12599,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security"
+    ],
+    "address": "105, Uttarahalli Main Rd, Channasandra, RR Nagar 560098",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-rajarajeshwari-nagar/female/crotone-house",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pg-batumi",
+    "name": "Stanza Living Batumi House",
+    "gender": "Boys",
+    "area": "Rajarajeshwari Nagar",
+    "nearCollege": "Bangalore University",
+    "collegeId": "c-bu",
+    "sharing": [
+      "Single",
+      "Double",
+      "Triple"
+    ],
+    "rentPerMonth": 10899,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security"
+    ],
+    "address": "5-1/2, Anjaneya Temple Rd, Channasandra 560098",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-rajarajeshwari-nagar/male/batumi-house",
+    "checked": "2026-10-22",
+    "priceNote": "Single ₹21,099, double ₹12,599, triple ₹10,899"
+  },
+  {
+    "id": "pg-salisbury",
+    "name": "Stanza Living Salisbury House",
+    "gender": "Boys",
+    "area": "Kothanur",
+    "nearCollege": "Kristu Jayanti College",
+    "collegeId": "c-kristu",
+    "sharing": [
+      "Double",
+      "Triple"
+    ],
+    "rentPerMonth": 11499,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security"
+    ],
+    "address": "K. Narayanapura Village, K. R. Puram Hobli 560077",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-kristu-jayanti/male/salisbury-house",
+    "checked": "2026-10-22",
+    "priceNote": "Double ₹12,899, triple ₹11,499"
+  },
+  {
+    "id": "pg-kampala",
+    "name": "Stanza Living Kampala House",
+    "gender": "Boys",
+    "area": "Banashankari",
+    "nearCollege": "PES University",
+    "collegeId": "c-pes",
+    "sharing": [
+      "Double",
+      "Triple"
+    ],
+    "rentPerMonth": 11599,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security"
+    ],
+    "address": "35th Cross Rd, Kadarenahalli Park, Banashankari Stage II 560070",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-banashankari/male/kampala-house",
+    "checked": "2026-10-22",
+    "priceNote": "Double ₹12,599, triple ₹11,599. Showed \"Sold out\" when checked"
+  },
+  {
+    "id": "pg-tumaco",
+    "name": "Stanza Living Tumaco House",
+    "gender": "Boys",
+    "area": "Kumaraswamy Layout",
+    "nearCollege": "Dayananda Sagar College of Engineering",
+    "collegeId": "c-dsce",
+    "sharing": [
+      "Triple"
+    ],
+    "rentPerMonth": 12699,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security"
+    ],
+    "address": "No. 1121/a, 42nd Cross, Kumaraswamy Layout 1st Stage 560078",
+    "source": "https://www.stanzaliving.com/bengaluru/kumaraswamy-layout/male/tumaco-house",
+    "checked": "2026-10-22",
+    "priceNote": "Triple ₹12,699 (the page also says \"from ₹14,299\")"
+  },
+  {
+    "id": "pg-kiev",
+    "name": "Stanza Living Kiev House",
+    "gender": "Girls",
+    "area": "Kumaraswamy Layout",
+    "nearCollege": "Dayananda Sagar College of Engineering",
+    "collegeId": "c-dsce",
+    "sharing": [
+      "Double"
+    ],
+    "rentPerMonth": 14899,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security"
+    ],
+    "address": "No. 1804, 5th Cross, 2nd Stage, Kumaraswamy Layout 560078",
+    "source": "https://www.stanzaliving.com/bengaluru/kumaraswamy-layout/female/kiev-house",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pg-cologne",
+    "name": "Stanza Living Cologne House",
+    "gender": "Girls",
+    "area": "Mathikere",
+    "nearCollege": "MS Ramaiah Institute of Technology",
+    "collegeId": "c-msrit",
+    "sharing": [
+      "Double"
+    ],
+    "rentPerMonth": 16699,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security",
+      "Workout zone"
+    ],
+    "address": "No. 26, Pipeline Road, Venkateshwara Layout, Subedarpalya, Mathikere 560022",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-mathikere/female/cologne-house",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pg-fargo",
+    "name": "Stanza Living Fargo House",
+    "gender": "Boys",
+    "area": "Mathikere",
+    "nearCollege": "MS Ramaiah Institute of Technology",
+    "collegeId": "c-msrit",
+    "sharing": [
+      "Single",
+      "Triple"
+    ],
+    "rentPerMonth": 9499,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security"
+    ],
+    "address": "A.K. Colony, Gokula 1st Stage, Mathikere Extension 560054",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-mathikere/male/fargo-house",
+    "checked": "2026-10-22",
+    "priceNote": "Single ₹16,899, triple ₹9,499"
+  },
+  {
+    "id": "pg-albury",
+    "name": "Stanza Living Albury House",
+    "gender": "Boys",
+    "area": "Rajanukunte",
+    "nearCollege": "Presidency University",
+    "collegeId": "c-presidency",
+    "sharing": [
+      "Double",
+      "Triple"
+    ],
+    "rentPerMonth": 8699,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security"
+    ],
+    "address": "Cable Factory Kakolu Road 560089",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hotel-in-rajankunte/male/albury-house",
+    "checked": "2026-10-22",
+    "priceNote": "Double ₹11,099, triple ₹8,699"
+  },
+  {
+    "id": "pg-serov",
+    "name": "Stanza Living Serov House",
+    "gender": "Girls",
+    "area": "Rajanukunte",
+    "nearCollege": "Presidency University",
+    "collegeId": "c-presidency",
+    "sharing": [
+      "Double",
+      "Triple"
+    ],
+    "rentPerMonth": 8999,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security"
+    ],
+    "address": "Rajanukunte 560064",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hotel-in-rajankunte/female/serov-house",
+    "checked": "2026-10-22",
+    "priceNote": "Double ₹11,099, triple ₹8,999"
+  },
+  {
+    "id": "pg-vernon",
+    "name": "Stanza Living Vernon House",
+    "gender": "Boys",
+    "area": "Yelahanka",
+    "nearCollege": "REVA University",
+    "collegeId": "c-reva",
+    "sharing": [
+      "Triple",
+      "Quadruple"
+    ],
+    "rentPerMonth": 8399,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security",
+      "Workout zone"
+    ],
+    "address": "Kattigenahalli, near REVA University 560064",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-near-reva-university/male/vernon-hoouse",
+    "checked": "2026-10-22",
+    "priceNote": "Triple ₹8,999, four-sharing ₹8,399"
+  },
+  {
+    "id": "pg-newport",
+    "name": "Stanza Living Newport House",
+    "gender": "Co-living",
+    "area": "Yelahanka",
+    "nearCollege": "REVA University",
+    "collegeId": "c-reva",
+    "sharing": [
+      "Double"
+    ],
+    "rentPerMonth": 12299,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security",
+      "Workout zone"
+    ],
+    "address": "32, 2nd Cross Road, opposite REVA University, Kattigenahalli 560064",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-near-reva-university/co_ed/newport-house",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pg-lincoln",
+    "name": "Stanza Living Lincoln House",
+    "gender": "Co-living",
+    "area": "Electronic City",
+    "nearCollege": "IIIT Bangalore",
+    "collegeId": "c-iiitb",
+    "sharing": [
+      "Single",
+      "Double"
+    ],
+    "rentPerMonth": 8499,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security",
+      "Workout zone"
+    ],
+    "address": "701 & 702, 4th Cross, Neeladri Nagar, Electronic City Phase 1 560100",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-electronics-city-phase-1/co_ed/lincoln-house",
+    "checked": "2026-10-22",
+    "priceNote": "Single ₹15,499, double ₹8,499"
+  },
+  {
+    "id": "pg-scottsdale",
+    "name": "Stanza Living Scottsdale House",
+    "gender": "Co-living",
+    "area": "Marathahalli",
+    "nearCollege": "New Horizon College of Engineering",
+    "collegeId": "c-nhce",
+    "sharing": [
+      "Double",
+      "Triple",
+      "Quadruple"
+    ],
+    "rentPerMonth": 7499,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security"
+    ],
+    "address": "Annaiah Reddy Street, Tulsi Theatre Rd, Marathahalli 560037",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-marathahalli/co_ed/scottsdale-house",
+    "checked": "2026-10-22",
+    "priceNote": "Double ₹16,299, triple ₹8,499, four-sharing ₹7,499"
+  },
+  {
+    "id": "pg-durham",
+    "name": "Stanza Living Durham House",
+    "gender": "Co-living",
+    "area": "Whitefield",
+    "nearCollege": "CMR Institute of Technology",
+    "collegeId": "c-cmrit",
+    "sharing": [
+      "Single",
+      "Double",
+      "Triple"
+    ],
+    "rentPerMonth": 8499,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security",
+      "Workout zone"
+    ],
+    "address": "Vinayaka Layout, Whitefield 560066",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-whitefield/co_ed/durham-house",
+    "checked": "2026-10-22",
+    "priceNote": "Single ₹16,499, double ₹10,999, triple ₹8,499"
+  },
+  {
+    "id": "pg-bakersfield",
+    "name": "Stanza Living Bakersfield House",
+    "gender": "Girls",
+    "area": "Whitefield",
+    "nearCollege": "CMR Institute of Technology",
+    "collegeId": "c-cmrit",
+    "sharing": [
+      "Double"
+    ],
+    "rentPerMonth": 12499,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security"
+    ],
+    "address": "1st Cross Road, Prasanth Extension, Whitefield 560066",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-whitefield/female/bakersfield-house",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "pg-manchester",
+    "name": "Stanza Living Manchester House",
+    "gender": "Co-living",
+    "area": "Nagavara",
+    "nearCollege": "None nearby",
+    "collegeId": null,
+    "sharing": [
+      "Single",
+      "Double",
+      "Triple"
+    ],
+    "rentPerMonth": 11699,
+    "food": true,
+    "amenities": [
+      "Meals",
+      "Wi-Fi",
+      "Laundry",
+      "Housekeeping",
+      "Attached washroom",
+      "24x7 security",
+      "Workout zone"
+    ],
+    "address": "198, St Anthony Rd, Coffee Board Layout, Nagavara 560024",
+    "source": "https://www.stanzaliving.com/bengaluru/pg-near-manyata-tech-park/co_ed/manchester-house",
+    "checked": "2026-10-22",
+    "priceNote": "Single ₹22,399, double and triple ₹11,699"
+  }
+]
