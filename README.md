@@ -10,6 +10,9 @@ SQLite (built into Node), zod, Vitest, installable as an offline app (PWA).
 
 ---
 
+**Live demo:** https://ethan-thomas-mathew.github.io/ooru-bengaluru-guide/
+(a static demo on GitHub Pages: reviews and admin need the server, so they're turned off there)
+
 ## Run it
 
 You need **Node.js 22.13 or newer** (the LTS from https://nodejs.org is fine). Check with `node -v`.
@@ -171,6 +174,19 @@ Map © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors.
 Edit the JSON files in `src/data/` and restart the server. On start-up the server copies them into
 the database and removes listings you deleted from the files (listings added through `/admin` are
 kept). When you change a price, update `checked` to today's date.
+
+## The GitHub Pages demo
+
+`.github/workflows/pages.yml` builds the site on every push to `main` and publishes it to GitHub
+Pages. GitHub Pages only serves files, so there is no Express server: the demo is built with
+`VITE_DEMO=1`, which turns off reviews and admin (they show a short note instead) and asks search
+engines not to list it. `VITE_BASE` makes links work under `/ooru-bengaluru-guide/`.
+
+To try the demo build on your computer:
+
+```bash
+VITE_BASE=/ooru-bengaluru-guide/ VITE_DEMO=1 npm run build
+```
 
 ## Deploying (later)
 

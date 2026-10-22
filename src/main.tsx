@@ -13,8 +13,9 @@ if (!rootElement) throw new Error('index.html is missing <div id="root">')
 createRoot(rootElement).render(
   <StrictMode>
     <ErrorBoundary>
-      {/* BrowserRouter lets us have pages like /search and /privacy */}
-      <BrowserRouter>
+      {/* BrowserRouter lets us have pages like /search and /privacy.
+          basename: on GitHub Pages the site lives under /ooru-bengaluru-guide/ */}
+      <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '') || '/'}>
         {/* DataProvider loads listings from the server (or uses the bundled copy) */}
         <DataProvider>
           <App />

@@ -6,16 +6,31 @@
 //   - the PWA: an installable app that works offline (vite-plugin-pwa)
 //   - splitting big libraries into their own files for faster loads
 //   - Vitest (the test runner)
+//   - the GitHub Pages demo: VITE_BASE sets the sub-folder the site lives
+//     in, and VITE_DEMO=1 hides the demo from search engines
 // ---------------------------------------------------------------
 
 /// <reference types="vitest/config" />
 import react from '@vitejs/plugin-react'
-import { defineConfig } from 'vite'
+import { defineConfig, type Plugin } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
+// "/" normally; "/ooru-bengaluru-guide/" for GitHub Pages
+const base = process.env.VITE_BASE ?? '/'
+const demo = process.env.VITE_DEMO === '1'
+
+// Demo only: ask search engines not to list it (it's a demo, not the real site)
+const noIndex: Plugin = {
+  name: 'demo-noindex',
+  transformIndexHtml: (html) =>
+    demo ? html.replace('<head>', '<head>\n    <meta name="robots" content="noindex, nofollow" />') : html,
+}
+
 export default defineConfig({
+  base,
   plugins: [
     react(),
+    noIndex,
     VitePWA({
       registerType: 'autoUpdate', // new versions install themselves quietly
       includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
@@ -26,7 +41,8 @@ export default defineConfig({
         theme_color: '#5f3fc4',
         background_color: '#f6f8f4',
         display: 'standalone',
-        start_url: '/',
+        start_url: base,
+        scope: base,
         icons: [
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },

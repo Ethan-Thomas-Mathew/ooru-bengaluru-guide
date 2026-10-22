@@ -10,6 +10,7 @@ import type { Review } from '../../shared/types'
 import { newReviewSchema } from '../../shared/schemas'
 import { api, ApiError } from '../lib/api'
 import { useData } from '../lib/dataContext'
+import { DEMO, DEMO_MESSAGE } from '../lib/demo'
 
 const STARS = [1, 2, 3, 4, 5]
 
@@ -25,7 +26,24 @@ function Stars({ value }: { value: number }) {
   )
 }
 
-export default function Reviews({ listingKey, name }: { listingKey: string; name: string }) {
+interface Props {
+  listingKey: string
+  name: string
+}
+
+export default function Reviews(props: Props) {
+  if (DEMO) {
+    return (
+      <section className="detail-section reviews" aria-labelledby="reviews-title">
+        <h2 id="reviews-title">Reviews</h2>
+        <p className="notice">{DEMO_MESSAGE}</p>
+      </section>
+    )
+  }
+  return <LiveReviews {...props} />
+}
+
+function LiveReviews({ listingKey, name }: Props) {
   const [reviews, setReviews] = useState<Review[] | null>(null) // null = loading
   const [offline, setOffline] = useState(false)
   const [form, setForm] = useState({ name: '', rating: 0, text: '' })

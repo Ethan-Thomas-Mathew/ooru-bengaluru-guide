@@ -16,6 +16,7 @@ import { AREA_NAMES } from '../lib/geo'
 import { api, ApiError } from '../lib/api'
 import { useData } from '../lib/dataContext'
 import { usePageTitle } from '../lib/usePageTitle'
+import { DEMO, DEMO_MESSAGE } from '../lib/demo'
 
 const TOKEN_KEY = 'ooru-admin-token'
 
@@ -270,6 +271,20 @@ function ReviewModeration({ token }: { token: string }) {
 
 // ---- The page -----------------------------------------------------------
 export default function Admin() {
+  return DEMO ? <AdminDemo /> : <AdminPage />
+}
+
+function AdminDemo() {
+  usePageTitle('Admin')
+  return (
+    <div className="wrap page admin">
+      <h1>Admin</h1>
+      <p className="notice">{DEMO_MESSAGE}</p>
+    </div>
+  )
+}
+
+function AdminPage() {
   usePageTitle('Admin')
   const [token, setToken] = useState(() => sessionStorage.getItem(TOKEN_KEY) ?? '')
   const [input, setInput] = useState('')

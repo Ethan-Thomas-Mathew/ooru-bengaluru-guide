@@ -6,6 +6,7 @@
 
 import type { CategoryId, ListingsByCategory, Review, ReviewSummary, BaseItem } from '../../shared/types'
 import type { NewReview } from '../../shared/schemas'
+import { DEMO, DEMO_MESSAGE } from './demo'
 
 /** An error with the server's message, so the UI can show it */
 export class ApiError extends Error {
@@ -18,6 +19,8 @@ export class ApiError extends Error {
 
 // fetch() with a timeout, JSON parsing and readable errors
 async function request<T>(path: string, init: RequestInit = {}, timeoutMs = 4000): Promise<T> {
+  // The GitHub Pages demo has no server: fail at once instead of waiting
+  if (DEMO) throw new ApiError(0, DEMO_MESSAGE)
   const controller = new AbortController()
   const timer = setTimeout(() => controller.abort(), timeoutMs)
   try {

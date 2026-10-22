@@ -100,4 +100,5 @@ export function decodePlan(code: string): Plan | null {
   }
 }
 
-export const shareUrl = (plan: Plan) => `${window.location.origin}/plan?p=${encodePlan(plan)}`
+// BASE_URL is "/" locally and "/ooru-bengaluru-guide/" on GitHub Pages
+export const shareUrl = (plan: Plan) => `${window.location.origin}${import.meta.env.BASE_URL}plan?p=${encodePlan(plan)}`

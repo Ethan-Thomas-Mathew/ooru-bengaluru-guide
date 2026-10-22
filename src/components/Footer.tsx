@@ -1,5 +1,6 @@
 // Bottom of every page: legal links + data note
 import { Link } from 'react-router-dom'
+import { DEMO } from '../lib/demo'
 import { SITE } from '../site'
 
 // Worked out once when the site loads
@@ -18,6 +19,7 @@ export default function Footer() {
             Prices and timings are copied from each listing's source and change often. Check with the place itself
             before you go or pay.
           </p>
+          {DEMO && <p className="muted small">Demo version on GitHub Pages: reviews and admin are turned off.</p>}
         </div>
         <ul className="footer-links">
           <li>
